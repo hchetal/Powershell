@@ -1,0 +1,57 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180725223504
+Username: DESKTOP-24IJDG4\Himanshu
+RunAs User: DESKTOP-24IJDG4\Himanshu
+Configuration Name: 
+Machine: DESKTOP-24IJDG4 (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 9600
+PSVersion: 5.1.17134.165
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.165
+BuildVersion: 10.0.17134.165
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Himanshu\Documents\PowerShell_transcript.DESKTOP-24IJDG4.XfUT++8J.20180725223504.txt
+PS C:\Himanshu\Source\Code\Powershell> $cow = "Himanshu is here "
+PS C:\Himanshu\Source\Code\Powershell> $cow
+Himanshu is here
+PS C:\Himanshu\Source\Code\Powershell> $cow.ToUpper()
+HIMANSHU IS HERE
+PS C:\Himanshu\Source\Code\Powershell> $cow.Contains("IS")
+False
+PS C:\Himanshu\Source\Code\Powershell> $cow.Contains("is")
+True
+PS C:\Himanshu\Source\Code\Powershell> cls
+PS C:\Himanshu\Source\Code\Powershell> Get-ChildItem | Where-Object{$_.Name.toUpper().Contains("Himanshu")}
+PS C:\Himanshu\Source\Code\Powershell> Get-ChildItem
+
+
+    Directory: C:\Himanshu\Source\Code\Powershell
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       25/07/2018   9:58 PM             67 FirstScript.ps1
+
+
+PS C:\Himanshu\Source\Code\Powershell> Get-ChildItem | Where-Object{$_.Name.toUpper().Contains("First")}
+PS C:\Himanshu\Source\Code\Powershell> Get-ChildItem | Where-Object{$_.Name.toUpper().Contains("FIRST")}
+
+
+    Directory: C:\Himanshu\Source\Code\Powershell
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----       25/07/2018   9:58 PM             67 FirstScript.ps1
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20180725231947
+**********************

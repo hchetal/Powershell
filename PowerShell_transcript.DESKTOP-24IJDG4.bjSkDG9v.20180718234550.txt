@@ -1,0 +1,1725 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180718234550
+Username: DESKTOP-24IJDG4\Himanshu
+RunAs User: DESKTOP-24IJDG4\Himanshu
+Configuration Name: 
+Machine: DESKTOP-24IJDG4 (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 1876
+PSVersion: 5.1.17134.165
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.165
+BuildVersion: 10.0.17134.165
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Himanshu\Documents\PowerShell_transcript.DESKTOP-24IJDG4.bjSkDG9v.20180718234550.txt
+PS C:\WINDOWS\system32> get-childitem
+
+
+    Directory: C:\WINDOWS\system32
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       24/05/2018   6:57 AM                0409
+d-----       24/05/2018   7:06 AM                1033
+d-----       12/04/2018   7:38 AM                AdvancedInstallers
+d-----       24/05/2018   6:59 AM                af-ZA
+d-----       24/05/2018   6:59 AM                am-et
+d-----       12/04/2018   7:38 AM                AppLocker
+d-----       13/07/2018  12:19 AM                appraiser
+d-----       24/05/2018   6:57 AM                ar-SA
+d-----       24/05/2018   6:59 AM                as-IN
+d-----       13/07/2018  12:19 AM                az-Latn-AZ
+d-----       24/05/2018   6:59 AM                be-BY
+d-----       24/05/2018   6:57 AM                BestPractices
+d-----       24/05/2018   6:57 AM                bg-BG
+d-----       24/05/2018   6:59 AM                bn-BD
+d-----       24/05/2018   6:59 AM                bn-IN
+d-----       13/07/2018  12:19 AM                Boot
+d-----       13/07/2018  12:19 AM                bs-Latn-BA
+d-----       12/04/2018   7:38 AM                Bthprops
+d-----       12/04/2018   5:19 PM                ca-ES
+d-----       13/07/2018  12:19 AM                ca-ES-valencia
+d-----       12/07/2018  10:36 PM                CatRoot
+d-----       13/07/2018  12:19 AM                catroot2
+d-----       13/07/2018  12:19 AM                chr-CHER-US
+d-----       24/05/2018   8:43 PM                CodeIntegrity
+d-----       12/04/2018   5:15 PM                com
+d-----       16/07/2018   9:53 PM                config
+d---s-       12/04/2018   7:38 AM                Configuration
+d-----       24/05/2018   6:57 AM                cs-CZ
+d-----       24/05/2018   6:59 AM                cy-GB
+d-----       24/05/2018   6:57 AM                da-DK
+d-----       12/04/2018   7:38 AM                DDFs
+d-----       24/05/2018   6:57 AM                de-DE
+d---s-       12/04/2018   5:15 PM                DiagSvcs
+d-----       13/06/2018  11:43 PM                Dism
+d-----       12/04/2018   5:04 AM                downlevel
+d-----       13/07/2018  12:19 AM                drivers
+d-----       12/04/2018   7:38 AM                DriverState
+d-----       16/07/2018   8:40 PM                DriverStore
+d---s-       12/04/2018   5:15 PM                dsc
+d-----       24/05/2018   6:57 AM                el-GR
+d-----       12/04/2018   5:15 PM                en
+d-----       24/05/2018   6:57 AM                en-GB
+d-----       13/07/2018  12:19 AM                en-US
+d-----       24/05/2018   6:57 AM                es-ES
+d-----       24/05/2018   6:57 AM                es-MX
+d-----       24/05/2018   6:57 AM                et-EE
+d-----       12/04/2018   5:19 PM                eu-ES
+d---s-       12/04/2018   5:15 PM                F12
+d-----       24/05/2018   6:59 AM                fa-IR
+d-----       24/05/2018   6:57 AM                fi-FI
+d-----       24/05/2018   6:59 AM                fil-PH
+d-----       24/05/2018   6:57 AM                fr-CA
+d-----       24/05/2018   6:57 AM                fr-FR
+d-----       12/04/2018   7:38 AM                FxsTmp
+d-----       24/05/2018   6:59 AM                ga-IE
+d-----       24/05/2018   6:59 AM                gd-GB
+d-----       12/04/2018   5:19 PM                gl-ES
+d-----       19/03/2017   5:03 AM                GroupPolicy
+d-----       19/03/2017   5:03 AM                GroupPolicyUsers
+d-----       24/05/2018   6:59 AM                gu-IN
+d-----       13/07/2018  12:19 AM                ha-Latn-NG
+d-----       24/05/2018   6:57 AM                he-IL
+d-----       12/04/2018   5:19 PM                hi-IN
+d-----       24/05/2018   6:57 AM                hr-HR
+d-----       24/05/2018   6:57 AM                hu-HU
+d-----       24/05/2018   6:59 AM                hy-AM
+d-----       12/04/2018   5:19 PM                hydrogen
+d-----       12/04/2018   7:38 AM                ias
+d-----       12/04/2018   7:38 AM                icsxml
+d-----       24/05/2018   6:59 AM                id-ID
+d-----       13/07/2018  12:19 AM                ig-NG
+d-----       12/04/2018   7:38 AM                IME
+d-----       16/07/2018   8:42 PM                inetsrv
+d-----       12/04/2018   7:38 AM                InputMethod
+d-----       12/04/2018   7:38 AM                Ipmi
+d-----       24/05/2018   6:59 AM                is-IS
+d-----       24/05/2018   6:57 AM                it-IT
+d-----       24/05/2018   6:57 AM                ja-jp
+d-----       24/05/2018   6:59 AM                ka-GE
+d-----       24/05/2018   6:59 AM                kk-KZ
+d-----       24/05/2018   6:59 AM                km-KH
+d-----       24/05/2018   6:59 AM                kn-IN
+d-----       24/05/2018   6:57 AM                ko-KR
+d-----       24/05/2018   6:59 AM                kok-IN
+d-----       13/07/2018  12:19 AM                ku-Arab-IQ
+d-----       24/05/2018   6:59 AM                ky-KG
+d-----       24/05/2018   6:59 AM                lb-LU
+d-----       12/04/2018   7:38 AM                Licenses
+d-----       24/05/2018   6:59 AM                lo-LA
+d-----       17/07/2018  12:00 AM                LogFiles
+d-----       24/05/2018   6:57 AM                lt-LT
+d-----       24/05/2018   6:57 AM                lv-LV
+d-----       12/04/2018   7:38 AM                Macromed
+d-----       12/04/2018   5:19 PM                MailContactsCalendarSync
+d-----       24/05/2018   6:59 AM                mi-NZ
+d-----       24/05/2018   7:00 AM                Microsoft
+d-----       13/07/2018  12:19 AM                migration
+d-----       12/04/2018   5:15 PM                migwiz
+d-----       24/05/2018   6:59 AM                mk-MK
+d-----       24/05/2018   6:59 AM                ml-IN
+d-----       24/05/2018   6:59 AM                mn-MN
+d-----       24/05/2018   6:59 AM                mr-IN
+d-----       12/07/2018  10:22 PM                MRT
+d-----       24/05/2018   6:59 AM                ms-MY
+d-----       12/04/2018   7:38 AM                MSDRM
+d-----       12/04/2018   7:38 AM                MsDtc
+d-----       24/05/2018   6:59 AM                mt-MT
+d-----       12/04/2018   5:15 PM                MUI
+d-----       12/04/2018   7:38 AM                my-mm
+d-----       24/05/2018   6:57 AM                nb-NO
+d-----       24/05/2018   7:06 AM                NDF
+d-----       24/05/2018   6:59 AM                ne-NP
+d-----       12/04/2018   7:38 AM                networklist
+d-----       24/05/2018   6:57 AM                nl-NL
+d-----       24/05/2018   6:59 AM                nn-NO
+d-----       13/07/2018  12:19 AM                nso-ZA
+d---s-       12/04/2018   7:38 AM                Nui
+d-----       13/06/2018  11:43 PM                oobe
+d-----       12/04/2018   5:19 PM                OpenSSH
+d-----       24/05/2018   6:59 AM                or-IN
+d-----       13/07/2018  12:19 AM                pa-Arab-PK
+d-----       24/05/2018   6:59 AM                pa-IN
+d-----       24/05/2018   6:57 AM                pl-PL
+d-----       12/04/2018   7:38 AM                PointOfService
+d-----       12/04/2018   5:15 PM                Printing_Admin_Scripts
+d-----       12/04/2018   7:38 AM                ProximityToast
+d-----       24/05/2018   6:59 AM                prs-AF
+d-----       24/05/2018   6:57 AM                pt-BR
+d-----       24/05/2018   6:57 AM                pt-PT
+d-----       13/07/2018  12:19 AM                quc-Latn-GT
+d-----       24/05/2018   6:59 AM                quz-PE
+d-----       12/04/2018   7:38 AM                ras
+d-----       12/04/2018   7:38 AM                RasToast
+d-----       24/05/2018   7:06 AM                Recovery
+d-----       25/05/2018   9:21 PM                restore
+d-----       24/05/2018   6:57 AM                ro-RO
+d-----       13/10/2017  10:15 PM                RsFx
+d-----       24/05/2018   6:57 AM                ru-RU
+d-----       13/07/2018  12:19 AM                rw-RW
+d-----       13/07/2018  12:19 AM                sd-Arab-PK
+d-----       12/04/2018   7:38 AM                SecureBootUpdates
+d-----       13/06/2018  11:43 PM                setup
+d-----       12/04/2018   7:38 AM                ShellExperiences
+d-----       24/05/2018   6:59 AM                si-lk
+d-----       24/05/2018   6:57 AM                sk-SK
+d-----       24/05/2018   6:57 AM                sl-SI
+d-----       18/07/2018  10:39 PM                SleepStudy
+d-----       12/04/2018   5:15 PM                slmgr
+d-----       12/04/2018   5:04 AM                SMI
+d-----       12/04/2018   7:38 AM                Speech
+d-----       12/04/2018   7:38 AM                Speech_OneCore
+d-----       24/05/2018   7:06 AM                spool
+d-----       12/04/2018   7:38 AM                spp
+d-----       12/04/2018   7:38 AM                sppui
+d-----       24/05/2018   6:59 AM                sq-AL
+d-----       13/07/2018  12:19 AM                sr-Cyrl-BA
+d-----       13/07/2018  12:19 AM                sr-Cyrl-RS
+d-----       24/05/2018   6:57 AM                sr-Latn-RS
+d-----       18/07/2018  10:52 PM                sru
+d-----       24/05/2018   6:57 AM                sv-SE
+d-----       24/05/2018   6:59 AM                sw-KE
+d-----       12/04/2018   5:15 PM                Sysprep
+d-----       13/06/2018  11:43 PM                SystemResetPlatform
+d-----       24/05/2018   6:59 AM                ta-in
+d-----       12/04/2018   7:38 AM                ta-lk
+d-----       18/07/2018   9:57 PM                Tasks
+d-----       24/05/2018   7:06 AM                Tasks_Migrated
+d-----       24/05/2018   6:59 AM                te-IN
+d-----       13/07/2018  12:19 AM                tg-Cyrl-TJ
+d-----       24/05/2018   6:57 AM                th-TH
+d-----       13/07/2018  12:19 AM                ti-ET
+d-----       24/05/2018   6:59 AM                tk-TM
+d-----       13/07/2018  12:19 AM                tn-ZA
+d-----       24/05/2018   6:57 AM                tr-TR
+d-----       24/05/2018   6:59 AM                tt-RU
+d-----       24/05/2018   6:59 AM                ug-CN
+d-----       24/05/2018   6:57 AM                uk-UA
+d---s-       12/04/2018   7:38 AM                UNP
+d-----       24/05/2018   6:59 AM                ur-PK
+d-----       13/07/2018  12:19 AM                uz-Latn-UZ
+d-----       24/05/2018   6:59 AM                vi-VN
+d-----       13/07/2018  12:19 AM                wbem
+d-----       12/04/2018   5:15 PM                WCN
+d-----        5/07/2018  11:33 PM                WDI
+d-----       24/05/2018   7:06 AM                WinBioDatabase
+d-----       13/07/2018  12:19 AM                WinBioPlugIns
+d-----       12/04/2018   7:38 AM                WindowsPowerShell
+d-----       12/04/2018   7:38 AM                winevt
+d-----       12/04/2018   7:38 AM                WinMetadata
+d-----       12/04/2018   5:15 PM                winrm
+d-----       13/07/2018  12:19 AM                wo-SN
+d-----       13/07/2018  12:19 AM                xh-ZA
+d-----       13/07/2018  12:19 AM                yo-NG
+d-----       24/05/2018   6:57 AM                zh-CN
+d-----       24/05/2018   6:57 AM                zh-TW
+d-----       13/07/2018  12:19 AM                zu-ZA
+-a----       12/04/2018   7:34 AM            308 @AudioToastIcon.png
+-a----       12/04/2018   7:34 AM            450 @BackgroundAccessToastIcon.png
+-a----       12/04/2018   7:34 AM            199 @bitlockertoastimage.png
+-a----       12/04/2018   7:34 AM          14791 @edptoastimage.png
+-a----       12/04/2018   7:34 AM            330 @EnrollmentToastIcon.png
+-a----       12/04/2018   7:34 AM            563 @language_notification_icon.png
+-a----       12/04/2018   7:34 AM            483 @optionalfeatures.png
+-a----       12/04/2018   7:34 AM            404 @VpnToastIcon.png
+-a----       12/04/2018   7:34 AM          15106 @WiFiNotificationIcon.png
+-a----       12/04/2018   7:34 AM         195443 @windows-hello-V4.1.gif
+-a----       12/04/2018   7:34 AM            714 @WindowsHelloFaceToastIcon.png
+-a----       12/04/2018   7:33 AM            518 @WindowsUpdateToastIcon.contrast-black.png
+-a----       12/04/2018   7:33 AM            810 @WindowsUpdateToastIcon.contrast-white.png
+-a----       12/04/2018   7:33 AM            518 @WindowsUpdateToastIcon.png
+-a----       12/04/2018   7:34 AM            691 @WirelessDisplayToast.png
+-a----       12/04/2018   7:34 AM            155 @WwanNotificationIcon.png
+-a----       12/04/2018   7:34 AM            352 @WwanSimLockIcon.png
+-a----       12/04/2018   7:34 AM         188416 aadauthhelper.dll
+-a----        6/07/2018   2:58 PM         670720 aadcloudap.dll
+-a----       12/04/2018   7:34 AM          66048 aadjcsp.dll
+-a----       20/05/2018   7:21 PM        1371136 aadtb.dll
+-a----       12/04/2018   7:34 AM         143264 aadWamExtension.dll
+-a----       12/04/2018   7:34 AM         255904 AboutSettingsHandlers.dll
+-a----       12/04/2018   7:34 AM         391680 AboveLockAppHost.dll
+-a----       12/04/2018   7:34 AM        3834880 accessibilitycpl.dll
+-a----       11/04/2018   5:06 AM         267776 accountaccessor.dll
+-a----       11/04/2018   5:04 AM         434176 AccountsRt.dll
+-a----        6/07/2018   9:53 PM         340992 AcGenral.dll
+-a----       16/06/2018   1:32 AM         301568 AcLayers.dll
+-a----       12/04/2018   7:34 AM          11264 acledit.dll
+-a----       12/04/2018   7:34 AM        5505024 aclui.dll
+-a----        6/07/2018  10:20 PM         309664 acmigration.dll
+-a----       12/04/2018   7:34 AM         210432 ACPBackgroundManagerPolicy.dll
+-a----       12/04/2018   7:34 AM          81408 acppage.dll
+-a----       12/04/2018   7:34 AM          12800 acproxy.dll
+-a----       12/04/2018   7:34 AM          57856 AcSpecfc.dll
+-a----       12/04/2018   7:34 AM         305664 ActionCenter.dll
+-a----       12/04/2018   7:34 AM         560640 ActionCenterCPL.dll
+-a----       12/04/2018   7:34 AM         219040 ActionQueue.dll
+-a----       12/04/2018   7:34 AM          34816 ActivationClient.dll
+-a----        8/06/2018   4:55 PM         652800 ActivationManager.dll
+-a----       12/04/2018   7:34 AM         263680 activeds.dll
+-a----       12/04/2018   7:34 AM         112128 activeds.tlb
+-a----       11/04/2018   5:07 AM          99328 ActiveSyncCsp.dll
+-a----       11/04/2018   5:02 AM        1773056 ActiveSyncProvider.dll
+-a----       12/04/2018   7:34 AM         601600 actxprxy.dll
+-a----       12/04/2018   7:34 AM          31744 AcWinRT.dll
+-a----       12/04/2018   7:34 AM          14848 AcXtrnal.dll
+-a----       22/08/2017   6:39 PM        1004200 adalsql.dll
+-a----       12/04/2018   7:34 AM         870400 AdaptiveCards.dll
+-a----       12/04/2018   7:34 AM          66560 AddressParser.dll
+-a----       12/04/2018   7:34 AM          24064 adhapi.dll
+-a----       12/04/2018   7:34 AM          84992 adhsvc.dll
+-a----       12/04/2018   6:31 PM          54272 admwprox.dll
+-a----       12/04/2018   7:34 AM          58368 adprovider.dll
+-a----       12/04/2018   7:34 AM         245760 adsldp.dll
+-a----       12/04/2018   7:34 AM         251904 adsldpc.dll
+-a----       12/04/2018   7:34 AM          98304 adsmsext.dll
+-a----       12/04/2018   7:34 AM         341504 adsnt.dll
+-a----       12/04/2018   7:34 AM         832512 adtschema.dll
+-a----       12/04/2018   7:34 AM         142848 AdvancedEmojiDS.dll
+-a----       12/04/2018   7:34 AM         645208 advapi32.dll
+-a----       12/04/2018   7:34 AM           2560 advapi32res.dll
+-a----       12/04/2018   7:34 AM         142336 advpack.dll
+-a----       12/04/2018   7:34 AM          30720 aeevts.dll
+-a----        6/07/2018  10:20 PM         689560 aeinv.dll
+-a----        6/07/2018   3:31 PM         462752 aepic.dll
+-a----       12/04/2018   6:31 PM          52736 ahadmin.dll
+-a----        6/07/2018  10:20 PM        2868640 aitstatic.exe
+-a----       12/04/2018   7:34 AM          25088 AJRouter.dll
+-a----       12/04/2018   7:34 AM          91136 alg.exe
+-a----       12/04/2018   7:34 AM         163328 altspace.dll
+-a----       11/04/2018   2:00 PM          18944 amcompat.tlb
+-a----       27/10/2017   3:53 PM            144 amd-vulkan64.json
+-a----       27/10/2017   3:53 PM         139096 amdave64.dll
+-a----       21/03/2016   6:10 PM         175648 amde31a.dat
+-a----       21/03/2016   6:10 PM         166560 amde34a.dat
+-a----       27/10/2017   3:53 PM         514456 amdgfxinfo64.dll
+-a----       27/10/2017   3:53 PM         196200 amdhcp64.dll
+-a----       21/03/2016   6:10 PM         853477 amdicdxx.dat
+-a----       16/05/2018   3:25 PM         155688 amdihk64.dll
+-a----       27/10/2017   3:53 PM          20580 AMDKernelEvents.man
+-a----       27/10/2017   3:53 PM         864152 amdlvr64.dll
+-a----       27/10/2017   3:53 PM          91544 amdmcl64.dll
+-a----       27/10/2017   3:53 PM         573824 amdmiracast.dll
+-a----        3/03/2016   7:05 PM        1187342 amdocl_as64.exe
+-a----        3/03/2016   7:05 PM        1061902 amdocl_ld64.exe
+-a----       27/10/2017   3:53 PM         131304 amdpcom64.dll
+-a----       27/10/2017   3:53 PM       10322328 amdvlk64.dll
+-a----       27/10/2017   3:53 PM         112536 amdxc64.dll
+-a----       27/10/2017   3:53 PM        2536344 amfrt64.dll
+-a----       12/04/2018   7:34 AM          63488 amsi.dll
+-a----       12/04/2018   7:34 AM          14336 amsiproxy.dll
+-a----       12/04/2018   7:34 AM          94720 amstream.dll
+-a----       12/04/2018   5:19 PM          83456 Analog.Shell.Broker.dll
+-a----       12/04/2018   7:34 AM          39424 AnalogCommonProxyStub.dll
+-a----       12/04/2018   7:34 AM         252416 apds.dll
+-a----       11/04/2018   5:08 AM          70656 APHostClient.dll
+-a----       11/04/2018   5:08 AM          16384 APHostRes.dll
+-a----       11/04/2018   5:05 AM         324608 APHostService.dll
+-a----       20/05/2018   7:27 PM         109568 ApiSetHost.AppExecutionAlias.dll
+-a----       12/04/2018   7:34 AM         114072 apisetschema.dll
+-a----       12/04/2018   7:34 AM         902144 AppContracts.dll
+-a----       12/04/2018   7:34 AM         180736 AppExtension.dll
+-a----       12/04/2018   7:34 AM         550400 apphelp.dll
+-a----       12/04/2018   7:34 AM          33280 Apphlpdm.dll
+-a----       20/05/2018   7:28 PM         111616 AppHostRegistrationVerifier.exe
+-a----       12/04/2018   7:34 AM          64168 appidapi.dll
+-a----       12/04/2018   7:34 AM          19456 appidcertstorecheck.exe
+-a----       12/04/2018   7:34 AM         160256 appidpolicyconverter.exe
+-a----       12/04/2018   7:34 AM          77312 appidsvc.dll
+-a----       12/04/2018   7:34 AM          25088 appidtel.exe
+-a----       12/04/2018   7:34 AM         166912 appinfo.dll
+-a----       12/04/2018   7:34 AM          11776 appinfoext.dll
+-a----        1/04/2016   3:29 AM        3831064 AppleControlPanel.exe
+-a----        1/04/2016   3:29 AM         205600 AppleOSSMgr.exe
+-a----       12/04/2018   7:34 AM         689664 ApplicationFrame.dll
+-a----       12/04/2018   7:34 AM          69800 ApplicationFrameHost.exe
+-a----       12/04/2018   7:34 AM         357888 AppLockerCSP.dll
+-a----       15/06/2018   1:19 PM        1034632 ApplyTrustOffline.exe
+-a----       12/04/2018   7:34 AM         114688 AppMon.dll
+-a----       12/04/2018   7:34 AM         141312 AppointmentActivation.dll
+-a----       12/04/2018   7:34 AM         759808 AppointmentApis.dll
+-a----        6/07/2018  10:20 PM        1610648 appraiser.dll
+-a----        8/06/2018   4:55 PM         667648 AppReadiness.dll
+-a----       12/04/2018   7:34 AM          12288 apprepapi.dll
+-a----       12/04/2018   7:34 AM         549624 AppResolver.dll
+-a----       12/04/2018   7:34 AM         231424 ApproveChildRequest.exe
+-a----       12/04/2018   7:34 AM         169984 appsruprov.dll
+-a----       12/04/2018   7:34 AM         899072 appwiz.cpl
+-a----       12/04/2018   7:34 AM         323584 AppxAllUserStore.dll
+-a----       15/06/2018  12:43 PM         209408 AppXApplicabilityBlob.dll
+-a----       12/04/2018   7:34 AM         223232 AppxApplicabilityEngine.dll
+-a----       20/05/2018   7:52 PM         735560 AppXDeploymentClient.dll
+-a----       15/06/2018  12:40 PM        1550848 AppXDeploymentExtensions.desktop.dll
+-a----       15/06/2018  12:39 PM        2172416 AppXDeploymentExtensions.onecore.dll
+-a----       15/06/2018  12:42 PM        3392512 AppXDeploymentServer.dll
+-a----       24/05/2018   6:58 AM        1565592 AppxPackaging.dll
+-a----       12/04/2018   7:34 AM           2956 AppxProvisioning.xml
+-a----       12/04/2018   7:34 AM         226816 AppxSip.dll
+-a----       12/04/2018   7:34 AM          19456 AppxStreamingDataSourcePS.dll
+-a----       12/04/2018   7:34 AM         127488 AppxSysprep.dll
+-a----       12/04/2018   7:34 AM         616448 archiveint.dll
+-a----       12/04/2018   7:34 AM          25600 ARP.EXE
+-a----       12/04/2018   7:33 AM           2560 asferror.dll
+-a----       12/04/2018   7:35 AM          30896 aspnet_counters.dll
+-a----       12/04/2018   6:31 PM          28672 aspperf.dll
+-a----       12/04/2018   7:34 AM          87552 asycfilt.dll
+-a----       12/04/2018   7:34 AM          30208 at.exe
+-a----       12/04/2018   7:34 AM          62976 AtBroker.exe
+-a----       27/10/2017   3:53 PM          69016 ati2erec.dll
+-a----       27/10/2017   3:53 PM        1516440 atiadlxx.dll
+-a----       27/10/2017   3:53 PM         795712 atiapfxx.blb
+-a----       27/10/2017   3:53 PM         411024 atiapfxx.exe
+-a----       27/10/2017   3:53 PM         156720 aticfx64.dll
+-a----       27/10/2017   3:53 PM         467352 atidemgy.dll
+-a----       27/10/2017   3:53 PM         115096 atidxx64.dll
+-a----       27/10/2017   3:53 PM         483736 atieah64.exe
+-a----       27/10/2017   3:53 PM         777112 atieclxx.exe
+-a----       27/10/2017   3:53 PM         551832 atiesrxx.exe
+-a----       27/10/2017   3:53 PM         245144 atig6txx.dll
+-a----        3/03/2016   7:05 PM         737410 atiicdxx.dat
+-a----       27/10/2017   3:53 PM         131304 atimpc64.dll
+-a----       27/10/2017   3:53 PM         122776 atimuixx.dll
+-a----       27/10/2017   3:53 PM         167832 atisamu64.dll
+-a----       27/10/2017   3:53 PM        3437632 atiumd6a.cap
+-a----       21/03/2016   6:10 PM         100832 ativce02.dat
+-a----       21/03/2016   6:10 PM         177344 ativce03.dat
+-a----       21/03/2016   6:10 PM         234292 ativvaxy_cik.dat
+-a----       21/03/2016   6:10 PM         232624 ativvaxy_cik_nd.dat
+-a----       21/03/2016   6:10 PM         258464 ativvaxy_cz_nd.dat
+-a----       21/03/2016   6:10 PM         323588 ativvaxy_el.dat
+-a----       21/03/2016   6:10 PM         320992 ativvaxy_el_nd.dat
+-a----       21/03/2016   6:10 PM         252628 ativvaxy_FJ.dat
+-a----       21/03/2016   6:10 PM         249680 ativvaxy_FJ_nd.dat
+-a----       21/03/2016   6:10 PM         261920 ativvaxy_stn_nd.dat
+-a----       21/03/2016   6:10 PM         322740 ativvaxy_vi.dat
+-a----       21/03/2016   6:10 PM         321072 ativvaxy_vi_nd.dat
+-a----       27/10/2017   3:53 PM         157144 ativvsva.dat
+-a----       27/10/2017   3:53 PM         204952 ativvsvl.dat
+-a----       12/04/2018   7:34 AM          97792 atl.dll
+-a----       11/06/2011   4:15 PM         158536 atl100.dll
+-a----        9/06/2013   3:59 PM         192584 atl110.dll
+-a----       12/04/2018   7:34 AM          36864 atlthunk.dll
+-a----       12/04/2018   7:34 AM         396184 atmfd.dll
+-a----       12/04/2018   7:34 AM          46592 atmlib.dll
+-a----       12/04/2018   7:34 AM          21504 attrib.exe
+-a----       15/06/2018   1:09 PM         594128 audiodg.exe
+-a----       15/06/2018  12:39 PM         684544 AudioEndpointBuilder.dll
+-a----       15/06/2018   1:10 PM        1934400 AudioEng.dll
+-a----       12/04/2018   7:34 AM         202240 AudioHandlers.dll
+-a----       15/06/2018   1:08 PM         413816 AUDIOKSE.dll
+-a----       12/04/2018   7:34 AM          46080 audioresourceregistrar.dll
+-a----       15/06/2018   1:09 PM        1209800 AudioSes.dll
+-a----       15/06/2018  12:41 PM        1768448 audiosrv.dll
+-a----       16/06/2018   1:48 AM         338352 AudioSrvPolicyManager.dll
+-a----       12/04/2018   7:34 AM         205312 auditcse.dll
+-a----       12/04/2018   7:34 AM          35328 auditpol.exe
+-a----       12/04/2018   7:34 AM          69632 auditpolcore.dll
+-a----       12/04/2018   7:34 AM         202752 AuthBroker.dll
+-a----       12/04/2018   7:34 AM         108032 AuthBrokerUI.dll
+-a----       12/04/2018   7:34 AM          63488 AuthExt.dll
+-a----       12/04/2018   7:34 AM         554496 authfwcfg.dll
+-a----       12/04/2018   7:34 AM         304640 AuthFWGP.dll
+-a----       12/04/2018   7:34 AM        5106176 AuthFWSnapin.dll
+-a----       12/04/2018   7:34 AM         112640 AuthFWWizFwk.dll
+-a----       12/04/2018   7:34 AM         139016 AuthHost.exe
+-a----       12/04/2018   7:34 AM          18944 AuthHostProxy.dll
+-a----       12/04/2018   7:34 AM         530432 authui.dll
+-a----       12/04/2018   7:34 AM         289280 authz.dll
+-a----       15/06/2018  12:41 PM         953856 autochk.exe
+-a----       16/06/2018   1:29 AM         932352 autoconv.exe
+-a----       16/06/2018   1:31 AM         907776 autofmt.exe
+-a----       15/06/2018  12:45 PM         193536 autopilot.dll
+-a----       12/04/2018   7:34 AM         163840 autoplay.dll
+-a----       12/04/2018   7:34 AM         138092 AverageRoom.bin
+-a----       12/04/2018   7:34 AM          79360 avicap32.dll
+-a----       12/04/2018   7:34 AM         113664 avifil32.dll
+-a----       12/04/2018   7:34 AM          30056 avrt.dll
+-a----       12/04/2018   7:34 AM         110080 AxInstSv.dll
+-a----       12/04/2018   7:34 AM          60416 AxInstUI.exe
+-a----       12/04/2018   7:34 AM          41587 azman.msc
+-a----       12/04/2018   7:34 AM         888832 azroles.dll
+-a----       12/04/2018   7:34 AM         429568 azroleui.dll
+-a----       12/04/2018   7:34 AM          30720 AzSqlExt.dll
+-a----       12/04/2018   7:34 AM        1938944 AzureSettingSyncProvider.dll
+-a----       12/04/2018   7:34 AM          63488 BackgroundMediaPolicy.dll
+-a----       12/04/2018   7:34 AM          19352 backgroundTaskHost.exe
+-a----       12/04/2018   7:34 AM          36864 BackgroundTransferHost.exe
+-a----       12/04/2018   7:34 AM          15360 BamSettingsClient.dll
+-a----       12/04/2018   7:34 AM          87552 BarcodeProvisioningPlugin.dll
+-a----       12/04/2018   7:34 AM         204696 basecsp.dll
+-a----       12/04/2018   7:34 AM          64000 basesrv.dll
+-a----       12/04/2018   7:34 AM        1669632 batmeter.dll
+-a----       12/04/2018   7:34 AM         252416 bcastdvr.proxy.dll
+-a----       12/04/2018   7:34 AM         105472 BcastDVRBroker.dll
+-a----       12/04/2018   7:34 AM         386048 BcastDVRClient.dll
+-a----       12/04/2018   7:34 AM         233984 BcastDVRCommon.dll
+-a----        6/07/2018   9:51 PM        1364992 bcastdvruserservice.dll
+-a----       12/04/2018   7:34 AM         120960 bcd.dll
+-a----       12/04/2018   7:34 AM         213504 bcdboot.exe
+-a----       12/04/2018   7:34 AM         461824 bcdedit.exe
+-a----       12/04/2018   7:34 AM          76288 bcdprov.dll
+-a----       12/04/2018   7:34 AM          87040 bcdsrv.dll
+-a----       17/07/2017   7:47 PM        4134904 bcmihvsrv64.dll
+-a----       17/07/2017   7:47 PM        3778552 bcmihvui64.dll
+-a----       12/04/2018   7:34 AM         320832 BCP47Langs.dll
+-a----       12/04/2018   7:34 AM         158144 BCP47mrm.dll
+-a----        8/06/2018   5:30 PM         137568 bcrypt.dll
+-a----       12/04/2018   7:34 AM         494400 bcryptprimitives.dll
+-a----       12/04/2018   7:34 AM          97280 bdaplgin.ax
+-a----       12/04/2018   7:35 AM         102400 BdeHdCfgLib.dll
+-a----       12/04/2018   7:35 AM          49664 bderepair.dll
+-a----       12/04/2018   7:35 AM         402944 bdesvc.dll
+-a----       12/04/2018   7:35 AM          34304 bdeui.dll
+-a----       12/04/2018   7:35 AM          52736 BdeUISrv.exe
+-a----       12/04/2018   7:35 AM         286232 bdeunlock.exe
+-a----        2/10/2015   4:50 AM          13752 BelgiumA.dll
+-a----        8/06/2018   4:55 PM         778752 BFE.DLL
+-a----       12/04/2018   7:34 AM          29696 bi.dll
+-a----       12/04/2018   7:34 AM          64000 bidispl.dll
+-a----       12/04/2018   7:34 AM         374784 BingASDS.dll
+-a----       12/04/2018   7:34 AM          62464 BingFilterDS.dll
+-a----        6/07/2018   3:02 PM        9084928 BingMaps.dll
+-a----        6/07/2018   2:54 PM         943616 BingOnlineServices.dll
+-a----        6/07/2018   2:56 PM         327680 BioCredProv.dll
+-a----       12/04/2018   7:34 AM         619376 BioIso.exe
+-a----       15/06/2018  12:39 PM         847360 bisrv.dll
+-a----        8/06/2018   5:01 PM         182272 BitLockerCsp.dll
+-a----       12/04/2018   7:35 AM         138240 BitLockerDeviceEncryption.exe
+-a----       12/04/2018   7:35 AM         101888 BitLockerWizardElev.exe
+-a----       12/04/2018   7:34 AM         209408 bitsadmin.exe
+-a----       12/04/2018   7:34 AM          81920 bitsigd.dll
+-a----       12/04/2018   7:34 AM          29696 bitsperf.dll
+-a----       12/04/2018   7:34 AM          61440 BitsProxy.dll
+-a----       12/04/2018   7:34 AM         336336 biwinrt.dll
+-a----       12/04/2018   7:35 AM          77824 BlbEvents.dll
+-a----       12/04/2018   7:35 AM           2560 blbres.dll
+-a----       12/04/2018   7:35 AM          66560 blb_ps.dll
+-a----       12/04/2018   7:34 AM         189440 BluetoothApis.dll
+-a----       12/04/2018   7:34 AM          65024 BluetoothDesktopHandlers.dll
+-a----       12/04/2018   7:34 AM           8495 BluetoothPairingSystemToastIcon.contrast-black.png
+-a----       12/04/2018   7:34 AM           8736 BluetoothPairingSystemToastIcon.contrast-high.png
+-a----       12/04/2018   7:34 AM           8495 BluetoothPairingSystemToastIcon.contrast-white.png
+-a----       12/04/2018   7:34 AM           8541 BluetoothPairingSystemToastIcon.png
+-a----       12/04/2018   7:34 AM           1320 BluetoothSystemToastIcon.contrast-white.png
+-a----       12/04/2018   7:34 AM           1229 BluetoothSystemToastIcon.png
+-a----       12/04/2018   7:34 AM          18944 bnmanager.dll
+-a----       12/04/2018   7:34 AM        3170304 boot.sdi
+-a----       12/04/2018   7:34 AM          92160 bootcfg.exe
+-a----       12/04/2018   7:35 AM          25088 bootim.exe
+-a----        9/06/2018   2:44 AM         625152 BootMenuUX.dll
+-a----       12/04/2018   7:34 AM         107416 bootsect.exe
+-a----       12/04/2018   7:34 AM           3072 bootstr.dll
+-a----       12/04/2018   7:35 AM        3755520 bootux.dll
+-a----       12/04/2018   7:34 AM          25496 BOOTVID.DLL
+-a----       12/04/2018   7:34 AM          22984 bopomofo.uce
+-a----       12/04/2018   7:34 AM           2560 bridgeres.dll
+-a----       12/04/2018   7:34 AM          20480 bridgeunattend.exe
+-a----        2/10/2015   4:50 AM          12728 BritishA.dll
+-a----       12/04/2018   7:34 AM         256000 BrokerLib.dll
+-a----       12/04/2018   7:33 AM          57344 browcli.dll
+-a----       12/04/2018   5:19 PM         133632 browser.dll
+-a----        6/07/2018   3:25 PM         267680 browserbroker.dll
+-a----        8/06/2018   5:01 PM         342528 browserexport.exe
+-a----       12/04/2018   7:34 AM         154112 BrowserSettingSync.dll
+-a----       12/04/2018   7:33 AM          43424 browser_broker.exe
+-a----       12/04/2018   7:34 AM          14336 browseui.dll
+-a----       12/04/2018   7:34 AM         514048 BTAGService.dll
+-a----       12/04/2018   7:34 AM          40448 BTAudioGatewayClient.dll
+-a----       12/04/2018   7:34 AM         395264 BthAvctpSvc.dll
+-a----       12/04/2018   7:34 AM         300544 BthAvrcp.dll
+-a----       12/04/2018   7:34 AM          60928 BthAvrcpAppSvc.dll
+-a----       12/04/2018   7:34 AM         114176 bthci.dll
+-a----       12/04/2018   7:34 AM          33280 BthMtpContextHandler.dll
+-a----       12/04/2018   7:34 AM          31232 bthpanapi.dll
+-a----       12/04/2018   7:34 AM         185344 BthpanContextHandler.dll
+-a----       12/04/2018   7:34 AM         249344 bthprops.cpl
+-a----       12/04/2018   7:34 AM         101888 BthRadioMedia.dll
+-a----       12/04/2018   7:34 AM         183808 bthserv.dll
+-a----       12/04/2018   7:34 AM          33280 BthTelemetry.dll
+-a----       12/04/2018   7:34 AM          40448 bthudtask.exe
+-a----       12/04/2018   7:34 AM         123392 btpanui.dll
+-a----       12/04/2018   7:34 AM         804352 Bubbles.scr
+-a----       12/04/2018   7:34 AM          62976 BWContextHandler.dll
+-a----       12/04/2018   7:34 AM          58368 ByteCodeGenerator.exe
+-a----       12/04/2018   7:34 AM          81920 cabapi.dll
+-a----       12/04/2018   7:34 AM         140624 cabinet.dll
+-a----       12/04/2018   7:34 AM         165376 cabview.dll
+-a----       12/04/2018   7:34 AM          32768 cacls.exe
+-a----       12/04/2018   7:34 AM          27648 calc.exe
+-a----       12/04/2018   7:34 AM         105472 CallButtons.dll
+-a----       12/04/2018   7:34 AM          27648 CallButtons.ProxyStub.dll
+-a----       12/04/2018   7:34 AM         169984 CallHistoryClient.dll
+-a----       12/04/2018   7:34 AM         110080 CameraCaptureUI.dll
+-a----       12/04/2018   7:33 AM          32104 CameraSettingsUIHost.exe
+-a----        2/10/2015   4:50 AM          13752 CanadaA.dll
+-a----       12/04/2018   7:34 AM          34304 canonurl.dll
+-a----       12/04/2018   7:34 AM          34304 CapabilityAccessHandlers.dll
+-a----       15/06/2018  12:41 PM         266752 CapabilityAccessManager.dll
+-a----        8/06/2018   5:00 PM         100864 CapabilityAccessManagerClient.dll
+-a----       12/04/2018   7:34 AM         325000 capauthz.dll
+-a----       12/04/2018   7:34 AM          61952 capiprovider.dll
+-a----       12/04/2018   7:34 AM          24576 capisp.dll
+-a----       12/04/2018   7:34 AM         148992 CastingShellExt.dll
+-a----       12/04/2018   7:34 AM         104448 CastLaunch.dll
+-a----       12/04/2018   7:34 AM          70864 CastSrv.exe
+-a----       12/04/2018   7:34 AM         457728 catsrv.dll
+-a----       12/04/2018   7:34 AM          50176 catsrvps.dll
+-a----       12/04/2018   7:34 AM         506880 catsrvut.dll
+-a----       12/04/2018   7:34 AM          90112 cca.dll
+-a----       12/04/2018   7:34 AM         228352 cdd.dll
+-a----       12/04/2018   7:34 AM        1058816 cdosys.dll
+-a----       15/06/2018  12:46 PM        4706816 cdp.dll
+-a----       12/04/2018   7:34 AM        1668096 cdprt.dll
+-a----       12/04/2018   7:34 AM         632320 cdpsvc.dll
+-a----       12/04/2018   7:34 AM         453120 cdpusersvc.dll
+-a----       12/04/2018   7:34 AM         731648 CellularAPI.dll
+-a----       15/06/2018  12:44 PM          43520 cellulardatacapabilityhandler.dll
+-a----       12/04/2018   7:34 AM         245760 cemapi.dll
+-a----       12/04/2018   7:34 AM          34816 cero.rs
+-a----       12/04/2018   7:34 AM         797184 certca.dll
+-a----       12/04/2018   7:34 AM         459776 certcli.dll
+-a----       12/04/2018   7:34 AM         328704 certCredProvider.dll
+-a----       12/04/2018   7:34 AM          65024 certenc.dll
+-a----       12/04/2018   7:34 AM        3147776 CertEnroll.dll
+-a----       12/04/2018   7:34 AM          51200 CertEnrollCtrl.exe
+-a----       12/04/2018   7:34 AM         326144 CertEnrollUI.dll
+-a----       12/04/2018   7:34 AM          63081 certlm.msc
+-a----       12/04/2018   7:34 AM        2199552 certmgr.dll
+-a----       12/04/2018   7:34 AM          63070 certmgr.msc
+-a----       12/04/2018   7:34 AM          61440 CertPKICmdlet.dll
+-a----       12/04/2018   7:34 AM         116736 CertPolEng.dll
+-a----       12/04/2018   7:34 AM         188928 certprop.dll
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\WINDOWS\system32> cls
+PS C:\WINDOWS\system32> Get-Command
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           Add-ProvisionedAppxPackage                         3.0        Dism
+Alias           Add-ProvisioningPackage                            3.0        Provisioning
+Alias           Add-TrustedProvisioningCertificate                 3.0        Provisioning
+Alias           Apply-WindowsUnattend                              3.0        Dism
+Alias           Begin-WebCommitDelay                               1.0.0.0    WebAdministration
+Alias           Disable-PhysicalDiskIndication                     2.0.0.0    Storage
+Alias           Disable-StorageDiagnosticLog                       2.0.0.0    Storage
+Alias           Enable-PhysicalDiskIndication                      2.0.0.0    Storage
+Alias           Enable-StorageDiagnosticLog                        2.0.0.0    Storage
+Alias           End-WebCommitDelay                                 1.0.0.0    WebAdministration
+Alias           Flush-Volume                                       2.0.0.0    Storage
+Alias           Get-DiskSNV                                        2.0.0.0    Storage
+Alias           Get-PhysicalDiskSNV                                2.0.0.0    Storage
+Alias           Get-ProvisionedAppxPackage                         3.0        Dism
+Alias           Get-StorageEnclosureSNV                            2.0.0.0    Storage
+Alias           Initialize-Volume                                  2.0.0.0    Storage
+Alias           Move-SmbClient                                     2.0.0.0    SmbWitness
+Alias           Optimize-ProvisionedAppxPackages                   3.0        Dism
+Alias           Remove-EtwTraceSession                             1.0.0.0    EventTracingManagement
+Alias           Remove-ProvisionedAppxPackage                      3.0        Dism
+Alias           Remove-ProvisioningPackage                         3.0        Provisioning
+Alias           Remove-TrustedProvisioningCertificate              3.0        Provisioning
+Alias           Set-EtwTraceSession                                1.0.0.0    EventTracingManagement
+Alias           Write-FileSystemCache                              2.0.0.0    Storage
+Function        A:
+Function        Add-BitLockerKeyProtector                          1.0.0.0    BitLocker
+Function        Add-DnsClientNrptRule                              1.0.0.0    DnsClient
+Function        Add-DtcClusterTMMapping                            1.0.0.0    MsDtc
+Function        Add-EtwTraceProvider                               1.0.0.0    EventTracingManagement
+Function        Add-InitiatorIdToMaskingSet                        2.0.0.0    Storage
+Function        Add-MpPreference                                   1.0        Defender
+Function        Add-NetEventNetworkAdapter                         1.0.0.0    NetEventPacketCapture
+Function        Add-NetEventPacketCaptureProvider                  1.0.0.0    NetEventPacketCapture
+Function        Add-NetEventProvider                               1.0.0.0    NetEventPacketCapture
+Function        Add-NetEventVFPProvider                            1.0.0.0    NetEventPacketCapture
+Function        Add-NetEventVmNetworkAdapter                       1.0.0.0    NetEventPacketCapture
+Function        Add-NetEventVmSwitch                               1.0.0.0    NetEventPacketCapture
+Function        Add-NetEventVmSwitchProvider                       1.0.0.0    NetEventPacketCapture
+Function        Add-NetEventWFPCaptureProvider                     1.0.0.0    NetEventPacketCapture
+Function        Add-NetIPHttpsCertBinding                          1.0.0.0    NetworkTransition
+Function        Add-NetLbfoTeamMember                              2.0.0.0    NetLbfo
+Function        Add-NetLbfoTeamNic                                 2.0.0.0    NetLbfo
+Function        Add-NetNatExternalAddress                          1.0.0.0    NetNat
+Function        Add-NetNatStaticMapping                            1.0.0.0    NetNat
+Function        Add-NetSwitchTeamMember                            1.0.0.0    NetSwitchTeam
+Function        Add-OdbcDsn                                        1.0.0.0    Wdac
+Function        Add-PartitionAccessPath                            2.0.0.0    Storage
+Function        Add-PhysicalDisk                                   2.0.0.0    Storage
+Function        Add-Printer                                        1.1        PrintManagement
+Function        Add-PrinterDriver                                  1.1        PrintManagement
+Function        Add-PrinterPort                                    1.1        PrintManagement
+Function        Add-StorageFaultDomain                             2.0.0.0    Storage
+Function        Add-TargetPortToMaskingSet                         2.0.0.0    Storage
+Function        Add-VirtualDiskToMaskingSet                        2.0.0.0    Storage
+Function        Add-VpnConnection                                  2.0.0.0    VpnClient
+Function        Add-VpnConnectionRoute                             2.0.0.0    VpnClient
+Function        Add-VpnConnectionTriggerApplication                2.0.0.0    VpnClient
+Function        Add-VpnConnectionTriggerDnsConfiguration           2.0.0.0    VpnClient
+Function        Add-VpnConnectionTriggerTrustedNetwork             2.0.0.0    VpnClient
+Function        AfterAll                                           3.4.0      Pester
+Function        AfterEach                                          3.4.0      Pester
+Function        Assert-MockCalled                                  3.4.0      Pester
+Function        Assert-VerifiableMocks                             3.4.0      Pester
+Function        B:
+Function        Backup-BitLockerKeyProtector                       1.0.0.0    BitLocker
+Function        BackupToAAD-BitLockerKeyProtector                  1.0.0.0    BitLocker
+Function        BeforeAll                                          3.4.0      Pester
+Function        BeforeEach                                         3.4.0      Pester
+Function        Block-FileShareAccess                              2.0.0.0    Storage
+Function        Block-SmbShareAccess                               2.0.0.0    SmbShare
+Function        C:
+Function        cd..
+Function        cd\
+Function        Clear-BitLockerAutoUnlock                          1.0.0.0    BitLocker
+Function        Clear-Disk                                         2.0.0.0    Storage
+Function        Clear-DnsClientCache                               1.0.0.0    DnsClient
+Function        Clear-FileStorageTier                              2.0.0.0    Storage
+Function        Clear-Host
+Function        Clear-PcsvDeviceLog                                1.0.0.0    PcsvDevice
+Function        Clear-StorageDiagnosticInfo                        2.0.0.0    Storage
+Function        Close-SmbOpenFile                                  2.0.0.0    SmbShare
+Function        Close-SmbSession                                   2.0.0.0    SmbShare
+Function        Compress-Archive                                   1.0.1.0    Microsoft.PowerShell.Archive
+Function        Configuration                                      1.1        PSDesiredStateConfiguration
+Function        Connect-IscsiTarget                                1.0.0.0    iSCSI
+Function        Connect-VirtualDisk                                2.0.0.0    Storage
+Function        Context                                            3.4.0      Pester
+Function        ConvertFrom-SddlString                             3.1.0.0    Microsoft.PowerShell.Utility
+Function        Copy-NetFirewallRule                               2.0.0.0    NetSecurity
+Function        Copy-NetIPsecMainModeCryptoSet                     2.0.0.0    NetSecurity
+Function        Copy-NetIPsecMainModeRule                          2.0.0.0    NetSecurity
+Function        Copy-NetIPsecPhase1AuthSet                         2.0.0.0    NetSecurity
+Function        Copy-NetIPsecPhase2AuthSet                         2.0.0.0    NetSecurity
+Function        Copy-NetIPsecQuickModeCryptoSet                    2.0.0.0    NetSecurity
+Function        Copy-NetIPsecRule                                  2.0.0.0    NetSecurity
+Function        D:
+Function        Debug-FileShare                                    2.0.0.0    Storage
+Function        Debug-MMAppPrelaunch                               1.0        MMAgent
+Function        Debug-StorageSubSystem                             2.0.0.0    Storage
+Function        Debug-Volume                                       2.0.0.0    Storage
+Function        Describe                                           3.4.0      Pester
+Function        Disable-BitLocker                                  1.0.0.0    BitLocker
+Function        Disable-BitLockerAutoUnlock                        1.0.0.0    BitLocker
+Function        Disable-DAManualEntryPointSelection                1.0.0.0    DirectAccessClientComponents
+Function        Disable-DscDebug                                   1.1        PSDesiredStateConfiguration
+Function        Disable-MMAgent                                    1.0        MMAgent
+Function        Disable-NetAdapter                                 2.0.0.0    NetAdapter
+Function        Disable-NetAdapterBinding                          2.0.0.0    NetAdapter
+Function        Disable-NetAdapterChecksumOffload                  2.0.0.0    NetAdapter
+Function        Disable-NetAdapterEncapsulatedPacketTaskOffload    2.0.0.0    NetAdapter
+Function        Disable-NetAdapterIPsecOffload                     2.0.0.0    NetAdapter
+Function        Disable-NetAdapterLso                              2.0.0.0    NetAdapter
+Function        Disable-NetAdapterPacketDirect                     2.0.0.0    NetAdapter
+Function        Disable-NetAdapterPowerManagement                  2.0.0.0    NetAdapter
+Function        Disable-NetAdapterQos                              2.0.0.0    NetAdapter
+Function        Disable-NetAdapterRdma                             2.0.0.0    NetAdapter
+Function        Disable-NetAdapterRsc                              2.0.0.0    NetAdapter
+Function        Disable-NetAdapterRss                              2.0.0.0    NetAdapter
+Function        Disable-NetAdapterSriov                            2.0.0.0    NetAdapter
+Function        Disable-NetAdapterVmq                              2.0.0.0    NetAdapter
+Function        Disable-NetDnsTransitionConfiguration              1.0.0.0    NetworkTransition
+Function        Disable-NetFirewallRule                            2.0.0.0    NetSecurity
+Function        Disable-NetIPHttpsProfile                          1.0.0.0    NetworkTransition
+Function        Disable-NetIPsecMainModeRule                       2.0.0.0    NetSecurity
+Function        Disable-NetIPsecRule                               2.0.0.0    NetSecurity
+Function        Disable-NetNatTransitionConfiguration              1.0.0.0    NetworkTransition
+Function        Disable-NetworkSwitchEthernetPort                  1.0.0.0    NetworkSwitchManager
+Function        Disable-NetworkSwitchFeature                       1.0.0.0    NetworkSwitchManager
+Function        Disable-NetworkSwitchVlan                          1.0.0.0    NetworkSwitchManager
+Function        Disable-OdbcPerfCounter                            1.0.0.0    Wdac
+Function        Disable-PhysicalDiskIdentification                 2.0.0.0    Storage
+Function        Disable-PnpDevice                                  1.0.0.0    PnpDevice
+Function        Disable-PSTrace                                    1.0.0.0    PSDiagnostics
+Function        Disable-PSWSManCombinedTrace                       1.0.0.0    PSDiagnostics
+Function        Disable-ScheduledTask                              1.0.0.0    ScheduledTasks
+Function        Disable-SmbDelegation                              2.0.0.0    SmbShare
+Function        Disable-StorageEnclosureIdentification             2.0.0.0    Storage
+Function        Disable-StorageEnclosurePower                      2.0.0.0    Storage
+Function        Disable-StorageHighAvailability                    2.0.0.0    Storage
+Function        Disable-StorageMaintenanceMode                     2.0.0.0    Storage
+Function        Disable-WdacBidTrace                               1.0.0.0    Wdac
+Function        Disable-WSManTrace                                 1.0.0.0    PSDiagnostics
+Function        Disconnect-IscsiTarget                             1.0.0.0    iSCSI
+Function        Disconnect-VirtualDisk                             2.0.0.0    Storage
+Function        Dismount-DiskImage                                 2.0.0.0    Storage
+Function        E:
+Function        Enable-BitLocker                                   1.0.0.0    BitLocker
+Function        Enable-BitLockerAutoUnlock                         1.0.0.0    BitLocker
+Function        Enable-DAManualEntryPointSelection                 1.0.0.0    DirectAccessClientComponents
+Function        Enable-DscDebug                                    1.1        PSDesiredStateConfiguration
+Function        Enable-MMAgent                                     1.0        MMAgent
+Function        Enable-NetAdapter                                  2.0.0.0    NetAdapter
+Function        Enable-NetAdapterBinding                           2.0.0.0    NetAdapter
+Function        Enable-NetAdapterChecksumOffload                   2.0.0.0    NetAdapter
+Function        Enable-NetAdapterEncapsulatedPacketTaskOffload     2.0.0.0    NetAdapter
+Function        Enable-NetAdapterIPsecOffload                      2.0.0.0    NetAdapter
+Function        Enable-NetAdapterLso                               2.0.0.0    NetAdapter
+Function        Enable-NetAdapterPacketDirect                      2.0.0.0    NetAdapter
+Function        Enable-NetAdapterPowerManagement                   2.0.0.0    NetAdapter
+Function        Enable-NetAdapterQos                               2.0.0.0    NetAdapter
+Function        Enable-NetAdapterRdma                              2.0.0.0    NetAdapter
+Function        Enable-NetAdapterRsc                               2.0.0.0    NetAdapter
+Function        Enable-NetAdapterRss                               2.0.0.0    NetAdapter
+Function        Enable-NetAdapterSriov                             2.0.0.0    NetAdapter
+Function        Enable-NetAdapterVmq                               2.0.0.0    NetAdapter
+Function        Enable-NetDnsTransitionConfiguration               1.0.0.0    NetworkTransition
+Function        Enable-NetFirewallRule                             2.0.0.0    NetSecurity
+Function        Enable-NetIPHttpsProfile                           1.0.0.0    NetworkTransition
+Function        Enable-NetIPsecMainModeRule                        2.0.0.0    NetSecurity
+Function        Enable-NetIPsecRule                                2.0.0.0    NetSecurity
+Function        Enable-NetNatTransitionConfiguration               1.0.0.0    NetworkTransition
+Function        Enable-NetworkSwitchEthernetPort                   1.0.0.0    NetworkSwitchManager
+Function        Enable-NetworkSwitchFeature                        1.0.0.0    NetworkSwitchManager
+Function        Enable-NetworkSwitchVlan                           1.0.0.0    NetworkSwitchManager
+Function        Enable-OdbcPerfCounter                             1.0.0.0    Wdac
+Function        Enable-PhysicalDiskIdentification                  2.0.0.0    Storage
+Function        Enable-PnpDevice                                   1.0.0.0    PnpDevice
+Function        Enable-PSTrace                                     1.0.0.0    PSDiagnostics
+Function        Enable-PSWSManCombinedTrace                        1.0.0.0    PSDiagnostics
+Function        Enable-ScheduledTask                               1.0.0.0    ScheduledTasks
+Function        Enable-SmbDelegation                               2.0.0.0    SmbShare
+Function        Enable-StorageEnclosureIdentification              2.0.0.0    Storage
+Function        Enable-StorageEnclosurePower                       2.0.0.0    Storage
+Function        Enable-StorageHighAvailability                     2.0.0.0    Storage
+Function        Enable-StorageMaintenanceMode                      2.0.0.0    Storage
+Function        Enable-WdacBidTrace                                1.0.0.0    Wdac
+Function        Enable-WSManTrace                                  1.0.0.0    PSDiagnostics
+Function        Expand-Archive                                     1.0.1.0    Microsoft.PowerShell.Archive
+Function        Export-ODataEndpointProxy                          1.0        Microsoft.PowerShell.ODataUtils
+Function        Export-ScheduledTask                               1.0.0.0    ScheduledTasks
+Function        F:
+Function        Find-Command                                       1.0.0.1    PowerShellGet
+Function        Find-DscResource                                   1.0.0.1    PowerShellGet
+Function        Find-Module                                        1.0.0.1    PowerShellGet
+Function        Find-NetIPsecRule                                  2.0.0.0    NetSecurity
+Function        Find-NetRoute                                      1.0.0.0    NetTCPIP
+Function        Find-RoleCapability                                1.0.0.1    PowerShellGet
+Function        Find-Script                                        1.0.0.1    PowerShellGet
+Function        Flush-EtwTraceSession                              1.0.0.0    EventTracingManagement
+Function        Format-Hex                                         3.1.0.0    Microsoft.PowerShell.Utility
+Function        Format-Volume                                      2.0.0.0    Storage
+Function        G:
+Function        Get-AppBackgroundTask                              1.0.0.0    AppBackgroundTask
+Function        Get-AppxLastError                                  2.0.0.0    Appx
+Function        Get-AppxLog                                        2.0.0.0    Appx
+Function        Get-AutologgerConfig                               1.0.0.0    EventTracingManagement
+Function        Get-BitLockerVolume                                1.0.0.0    BitLocker
+Function        Get-ClusteredScheduledTask                         1.0.0.0    ScheduledTasks
+Function        Get-DAClientExperienceConfiguration                1.0.0.0    DirectAccessClientComponents
+Function        Get-DAConnectionStatus                             1.0.0.0    NetworkConnectivityStatus
+Function        Get-DAEntryPointTableItem                          1.0.0.0    DirectAccessClientComponents
+Function        Get-DedupProperties                                2.0.0.0    Storage
+Function        Get-Disk                                           2.0.0.0    Storage
+Function        Get-DiskImage                                      2.0.0.0    Storage
+Function        Get-DiskStorageNodeView                            2.0.0.0    Storage
+Function        Get-DnsClient                                      1.0.0.0    DnsClient
+Function        Get-DnsClientCache                                 1.0.0.0    DnsClient
+Function        Get-DnsClientGlobalSetting                         1.0.0.0    DnsClient
+Function        Get-DnsClientNrptGlobal                            1.0.0.0    DnsClient
+Function        Get-DnsClientNrptPolicy                            1.0.0.0    DnsClient
+Function        Get-DnsClientNrptRule                              1.0.0.0    DnsClient
+Function        Get-DnsClientServerAddress                         1.0.0.0    DnsClient
+Function        Get-DscConfiguration                               1.1        PSDesiredStateConfiguration
+Function        Get-DscConfigurationStatus                         1.1        PSDesiredStateConfiguration
+Function        Get-DscLocalConfigurationManager                   1.1        PSDesiredStateConfiguration
+Function        Get-DscResource                                    1.1        PSDesiredStateConfiguration
+Function        Get-Dtc                                            1.0.0.0    MsDtc
+Function        Get-DtcAdvancedHostSetting                         1.0.0.0    MsDtc
+Function        Get-DtcAdvancedSetting                             1.0.0.0    MsDtc
+Function        Get-DtcClusterDefault                              1.0.0.0    MsDtc
+Function        Get-DtcClusterTMMapping                            1.0.0.0    MsDtc
+Function        Get-DtcDefault                                     1.0.0.0    MsDtc
+Function        Get-DtcLog                                         1.0.0.0    MsDtc
+Function        Get-DtcNetworkSetting                              1.0.0.0    MsDtc
+Function        Get-DtcTransaction                                 1.0.0.0    MsDtc
+Function        Get-DtcTransactionsStatistics                      1.0.0.0    MsDtc
+Function        Get-DtcTransactionsTraceSession                    1.0.0.0    MsDtc
+Function        Get-DtcTransactionsTraceSetting                    1.0.0.0    MsDtc
+Function        Get-EtwTraceProvider                               1.0.0.0    EventTracingManagement
+Function        Get-EtwTraceSession                                1.0.0.0    EventTracingManagement
+Function        Get-FileHash                                       3.1.0.0    Microsoft.PowerShell.Utility
+Function        Get-FileIntegrity                                  2.0.0.0    Storage
+Function        Get-FileShare                                      2.0.0.0    Storage
+Function        Get-FileShareAccessControlEntry                    2.0.0.0    Storage
+Function        Get-FileStorageTier                                2.0.0.0    Storage
+Function        Get-InitiatorId                                    2.0.0.0    Storage
+Function        Get-InitiatorPort                                  2.0.0.0    Storage
+Function        Get-InstalledModule                                1.0.0.1    PowerShellGet
+Function        Get-InstalledScript                                1.0.0.1    PowerShellGet
+Function        Get-IscsiConnection                                1.0.0.0    iSCSI
+Function        Get-IscsiSession                                   1.0.0.0    iSCSI
+Function        Get-IscsiTarget                                    1.0.0.0    iSCSI
+Function        Get-IscsiTargetPortal                              1.0.0.0    iSCSI
+Function        Get-IseSnippet                                     1.0.0.0    ISE
+Function        Get-LogProperties                                  1.0.0.0    PSDiagnostics
+Function        Get-MaskingSet                                     2.0.0.0    Storage
+Function        Get-MMAgent                                        1.0        MMAgent
+Function        Get-MockDynamicParameters                          3.4.0      Pester
+Function        Get-MpComputerStatus                               1.0        Defender
+Function        Get-MpPreference                                   1.0        Defender
+Function        Get-MpThreat                                       1.0        Defender
+Function        Get-MpThreatCatalog                                1.0        Defender
+Function        Get-MpThreatDetection                              1.0        Defender
+Function        Get-NCSIPolicyConfiguration                        1.0.0.0    NetworkConnectivityStatus
+Function        Get-Net6to4Configuration                           1.0.0.0    NetworkTransition
+Function        Get-NetAdapter                                     2.0.0.0    NetAdapter
+Function        Get-NetAdapterAdvancedProperty                     2.0.0.0    NetAdapter
+Function        Get-NetAdapterBinding                              2.0.0.0    NetAdapter
+Function        Get-NetAdapterChecksumOffload                      2.0.0.0    NetAdapter
+Function        Get-NetAdapterEncapsulatedPacketTaskOffload        2.0.0.0    NetAdapter
+Function        Get-NetAdapterHardwareInfo                         2.0.0.0    NetAdapter
+Function        Get-NetAdapterIPsecOffload                         2.0.0.0    NetAdapter
+Function        Get-NetAdapterLso                                  2.0.0.0    NetAdapter
+Function        Get-NetAdapterPacketDirect                         2.0.0.0    NetAdapter
+Function        Get-NetAdapterPowerManagement                      2.0.0.0    NetAdapter
+Function        Get-NetAdapterQos                                  2.0.0.0    NetAdapter
+Function        Get-NetAdapterRdma                                 2.0.0.0    NetAdapter
+Function        Get-NetAdapterRsc                                  2.0.0.0    NetAdapter
+Function        Get-NetAdapterRss                                  2.0.0.0    NetAdapter
+Function        Get-NetAdapterSriov                                2.0.0.0    NetAdapter
+Function        Get-NetAdapterSriovVf                              2.0.0.0    NetAdapter
+Function        Get-NetAdapterStatistics                           2.0.0.0    NetAdapter
+Function        Get-NetAdapterVmq                                  2.0.0.0    NetAdapter
+Function        Get-NetAdapterVMQQueue                             2.0.0.0    NetAdapter
+Function        Get-NetAdapterVPort                                2.0.0.0    NetAdapter
+Function        Get-NetCompartment                                 1.0.0.0    NetTCPIP
+Function        Get-NetConnectionProfile                           1.0.0.0    NetConnection
+Function        Get-NetDnsTransitionConfiguration                  1.0.0.0    NetworkTransition
+Function        Get-NetDnsTransitionMonitoring                     1.0.0.0    NetworkTransition
+Function        Get-NetEventNetworkAdapter                         1.0.0.0    NetEventPacketCapture
+Function        Get-NetEventPacketCaptureProvider                  1.0.0.0    NetEventPacketCapture
+Function        Get-NetEventProvider                               1.0.0.0    NetEventPacketCapture
+Function        Get-NetEventSession                                1.0.0.0    NetEventPacketCapture
+Function        Get-NetEventVFPProvider                            1.0.0.0    NetEventPacketCapture
+Function        Get-NetEventVmNetworkAdapter                       1.0.0.0    NetEventPacketCapture
+Function        Get-NetEventVmSwitch                               1.0.0.0    NetEventPacketCapture
+Function        Get-NetEventVmSwitchProvider                       1.0.0.0    NetEventPacketCapture
+Function        Get-NetEventWFPCaptureProvider                     1.0.0.0    NetEventPacketCapture
+Function        Get-NetFirewallAddressFilter                       2.0.0.0    NetSecurity
+Function        Get-NetFirewallApplicationFilter                   2.0.0.0    NetSecurity
+Function        Get-NetFirewallInterfaceFilter                     2.0.0.0    NetSecurity
+Function        Get-NetFirewallInterfaceTypeFilter                 2.0.0.0    NetSecurity
+Function        Get-NetFirewallPortFilter                          2.0.0.0    NetSecurity
+Function        Get-NetFirewallProfile                             2.0.0.0    NetSecurity
+Function        Get-NetFirewallRule                                2.0.0.0    NetSecurity
+Function        Get-NetFirewallSecurityFilter                      2.0.0.0    NetSecurity
+Function        Get-NetFirewallServiceFilter                       2.0.0.0    NetSecurity
+Function        Get-NetFirewallSetting                             2.0.0.0    NetSecurity
+Function        Get-NetIPAddress                                   1.0.0.0    NetTCPIP
+Function        Get-NetIPConfiguration                             1.0.0.0    NetTCPIP
+Function        Get-NetIPHttpsConfiguration                        1.0.0.0    NetworkTransition
+Function        Get-NetIPHttpsState                                1.0.0.0    NetworkTransition
+Function        Get-NetIPInterface                                 1.0.0.0    NetTCPIP
+Function        Get-NetIPsecDospSetting                            2.0.0.0    NetSecurity
+Function        Get-NetIPsecMainModeCryptoSet                      2.0.0.0    NetSecurity
+Function        Get-NetIPsecMainModeRule                           2.0.0.0    NetSecurity
+Function        Get-NetIPsecMainModeSA                             2.0.0.0    NetSecurity
+Function        Get-NetIPsecPhase1AuthSet                          2.0.0.0    NetSecurity
+Function        Get-NetIPsecPhase2AuthSet                          2.0.0.0    NetSecurity
+Function        Get-NetIPsecQuickModeCryptoSet                     2.0.0.0    NetSecurity
+Function        Get-NetIPsecQuickModeSA                            2.0.0.0    NetSecurity
+Function        Get-NetIPsecRule                                   2.0.0.0    NetSecurity
+Function        Get-NetIPv4Protocol                                1.0.0.0    NetTCPIP
+Function        Get-NetIPv6Protocol                                1.0.0.0    NetTCPIP
+Function        Get-NetIsatapConfiguration                         1.0.0.0    NetworkTransition
+Function        Get-NetLbfoTeam                                    2.0.0.0    NetLbfo
+Function        Get-NetLbfoTeamMember                              2.0.0.0    NetLbfo
+Function        Get-NetLbfoTeamNic                                 2.0.0.0    NetLbfo
+Function        Get-NetNat                                         1.0.0.0    NetNat
+Function        Get-NetNatExternalAddress                          1.0.0.0    NetNat
+Function        Get-NetNatGlobal                                   1.0.0.0    NetNat
+Function        Get-NetNatSession                                  1.0.0.0    NetNat
+Function        Get-NetNatStaticMapping                            1.0.0.0    NetNat
+Function        Get-NetNatTransitionConfiguration                  1.0.0.0    NetworkTransition
+Function        Get-NetNatTransitionMonitoring                     1.0.0.0    NetworkTransition
+Function        Get-NetNeighbor                                    1.0.0.0    NetTCPIP
+Function        Get-NetOffloadGlobalSetting                        1.0.0.0    NetTCPIP
+Function        Get-NetPrefixPolicy                                1.0.0.0    NetTCPIP
+Function        Get-NetQosPolicy                                   2.0.0.0    NetQos
+Function        Get-NetRoute                                       1.0.0.0    NetTCPIP
+Function        Get-NetSwitchTeam                                  1.0.0.0    NetSwitchTeam
+Function        Get-NetSwitchTeamMember                            1.0.0.0    NetSwitchTeam
+Function        Get-NetTCPConnection                               1.0.0.0    NetTCPIP
+Function        Get-NetTCPSetting                                  1.0.0.0    NetTCPIP
+Function        Get-NetTeredoConfiguration                         1.0.0.0    NetworkTransition
+Function        Get-NetTeredoState                                 1.0.0.0    NetworkTransition
+Function        Get-NetTransportFilter                             1.0.0.0    NetTCPIP
+Function        Get-NetUDPEndpoint                                 1.0.0.0    NetTCPIP
+Function        Get-NetUDPSetting                                  1.0.0.0    NetTCPIP
+Function        Get-NetworkSwitchEthernetPort                      1.0.0.0    NetworkSwitchManager
+Function        Get-NetworkSwitchFeature                           1.0.0.0    NetworkSwitchManager
+Function        Get-NetworkSwitchGlobalData                        1.0.0.0    NetworkSwitchManager
+Function        Get-NetworkSwitchVlan                              1.0.0.0    NetworkSwitchManager
+Function        Get-OdbcDriver                                     1.0.0.0    Wdac
+Function        Get-OdbcDsn                                        1.0.0.0    Wdac
+Function        Get-OdbcPerfCounter                                1.0.0.0    Wdac
+Function        Get-OffloadDataTransferSetting                     2.0.0.0    Storage
+Function        Get-OperationValidation                            1.0.1      Microsoft.PowerShell.Operation.Validation
+Function        Get-Partition                                      2.0.0.0    Storage
+Function        Get-PartitionSupportedSize                         2.0.0.0    Storage
+Function        Get-PcsvDevice                                     1.0.0.0    PcsvDevice
+Function        Get-PcsvDeviceLog                                  1.0.0.0    PcsvDevice
+Function        Get-PhysicalDisk                                   2.0.0.0    Storage
+Function        Get-PhysicalDiskStorageNodeView                    2.0.0.0    Storage
+Function        Get-PhysicalExtent                                 2.0.0.0    Storage
+Function        Get-PhysicalExtentAssociation                      2.0.0.0    Storage
+Function        Get-PnpDevice                                      1.0.0.0    PnpDevice
+Function        Get-PnpDeviceProperty                              1.0.0.0    PnpDevice
+Function        Get-PrintConfiguration                             1.1        PrintManagement
+Function        Get-Printer                                        1.1        PrintManagement
+Function        Get-PrinterDriver                                  1.1        PrintManagement
+Function        Get-PrinterPort                                    1.1        PrintManagement
+Function        Get-PrinterProperty                                1.1        PrintManagement
+Function        Get-PrintJob                                       1.1        PrintManagement
+Function        Get-PSRepository                                   1.0.0.1    PowerShellGet
+Function        Get-ResiliencySetting                              2.0.0.0    Storage
+Function        Get-ScheduledTask                                  1.0.0.0    ScheduledTasks
+Function        Get-ScheduledTaskInfo                              1.0.0.0    ScheduledTasks
+Function        Get-SmbBandWidthLimit                              2.0.0.0    SmbShare
+Function        Get-SmbClientConfiguration                         2.0.0.0    SmbShare
+Function        Get-SmbClientNetworkInterface                      2.0.0.0    SmbShare
+Function        Get-SmbConnection                                  2.0.0.0    SmbShare
+Function        Get-SmbDelegation                                  2.0.0.0    SmbShare
+Function        Get-SmbGlobalMapping                               2.0.0.0    SmbShare
+Function        Get-SmbMapping                                     2.0.0.0    SmbShare
+Function        Get-SmbMultichannelConnection                      2.0.0.0    SmbShare
+Function        Get-SmbMultichannelConstraint                      2.0.0.0    SmbShare
+Function        Get-SmbOpenFile                                    2.0.0.0    SmbShare
+Function        Get-SmbServerConfiguration                         2.0.0.0    SmbShare
+Function        Get-SmbServerNetworkInterface                      2.0.0.0    SmbShare
+Function        Get-SmbSession                                     2.0.0.0    SmbShare
+Function        Get-SmbShare                                       2.0.0.0    SmbShare
+Function        Get-SmbShareAccess                                 2.0.0.0    SmbShare
+Function        Get-SmbWitnessClient                               2.0.0.0    SmbWitness
+Function        Get-StartApps                                      1.0.0.0    StartLayout
+Function        Get-StorageAdvancedProperty                        2.0.0.0    Storage
+Function        Get-StorageDiagnosticInfo                          2.0.0.0    Storage
+Function        Get-StorageEnclosure                               2.0.0.0    Storage
+Function        Get-StorageEnclosureStorageNodeView                2.0.0.0    Storage
+Function        Get-StorageEnclosureVendorData                     2.0.0.0    Storage
+Function        Get-StorageExtendedStatus                          2.0.0.0    Storage
+Function        Get-StorageFaultDomain                             2.0.0.0    Storage
+Function        Get-StorageFileServer                              2.0.0.0    Storage
+Function        Get-StorageFirmwareInformation                     2.0.0.0    Storage
+Function        Get-StorageHealthAction                            2.0.0.0    Storage
+Function        Get-StorageHealthReport                            2.0.0.0    Storage
+Function        Get-StorageHealthSetting                           2.0.0.0    Storage
+Function        Get-StorageJob                                     2.0.0.0    Storage
+Function        Get-StorageNode                                    2.0.0.0    Storage
+Function        Get-StoragePool                                    2.0.0.0    Storage
+Function        Get-StorageProvider                                2.0.0.0    Storage
+Function        Get-StorageReliabilityCounter                      2.0.0.0    Storage
+Function        Get-StorageSetting                                 2.0.0.0    Storage
+Function        Get-StorageSubSystem                               2.0.0.0    Storage
+Function        Get-StorageTier                                    2.0.0.0    Storage
+Function        Get-StorageTierSupportedSize                       2.0.0.0    Storage
+Function        Get-SupportedClusterSizes                          2.0.0.0    Storage
+Function        Get-SupportedFileSystems                           2.0.0.0    Storage
+Function        Get-TargetPort                                     2.0.0.0    Storage
+Function        Get-TargetPortal                                   2.0.0.0    Storage
+Function        Get-TestDriveItem                                  3.4.0      Pester
+Function        Get-Verb
+Function        Get-VirtualDisk                                    2.0.0.0    Storage
+Function        Get-VirtualDiskSupportedSize                       2.0.0.0    Storage
+Function        Get-Volume                                         2.0.0.0    Storage
+Function        Get-VolumeCorruptionCount                          2.0.0.0    Storage
+Function        Get-VolumeScrubPolicy                              2.0.0.0    Storage
+Function        Get-VpnConnection                                  2.0.0.0    VpnClient
+Function        Get-VpnConnectionTrigger                           2.0.0.0    VpnClient
+Function        Get-WdacBidTrace                                   1.0.0.0    Wdac
+Function        Get-WindowsUpdateLog                               1.0.0.0    WindowsUpdate
+Function        Get-WUAVersion                                     1.0.0.2    WindowsUpdateProvider
+Function        Get-WUIsPendingReboot                              1.0.0.2    WindowsUpdateProvider
+Function        Get-WULastInstallationDate                         1.0.0.2    WindowsUpdateProvider
+Function        Get-WULastScanSuccessDate                          1.0.0.2    WindowsUpdateProvider
+Function        Grant-FileShareAccess                              2.0.0.0    Storage
+Function        Grant-SmbShareAccess                               2.0.0.0    SmbShare
+Function        H:
+Function        help
+Function        Hide-VirtualDisk                                   2.0.0.0    Storage
+Function        I:
+Function        Import-IseSnippet                                  1.0.0.0    ISE
+Function        Import-PowerShellDataFile                          3.1.0.0    Microsoft.PowerShell.Utility
+Function        ImportSystemModules
+Function        In                                                 3.4.0      Pester
+Function        Initialize-Disk                                    2.0.0.0    Storage
+Function        InModuleScope                                      3.4.0      Pester
+Function        Install-Dtc                                        1.0.0.0    MsDtc
+Function        Install-Module                                     1.0.0.1    PowerShellGet
+Function        Install-Script                                     1.0.0.1    PowerShellGet
+Function        Install-WUUpdates                                  1.0.0.2    WindowsUpdateProvider
+Function        Invoke-AsWorkflow                                  1.0.0.0    PSWorkflowUtility
+Function        Invoke-Mock                                        3.4.0      Pester
+Function        Invoke-OperationValidation                         1.0.1      Microsoft.PowerShell.Operation.Validation
+Function        Invoke-Pester                                      3.4.0      Pester
+Function        It                                                 3.4.0      Pester
+Function        J:
+Function        K:
+Function        L:
+Function        Lock-BitLocker                                     1.0.0.0    BitLocker
+Function        M:
+Function        mkdir
+Function        Mock                                               3.4.0      Pester
+Function        more
+Function        Mount-DiskImage                                    2.0.0.0    Storage
+Function        Move-SmbWitnessClient                              2.0.0.0    SmbWitness
+Function        N:
+Function        New-AutologgerConfig                               1.0.0.0    EventTracingManagement
+Function        New-DAEntryPointTableItem                          1.0.0.0    DirectAccessClientComponents
+Function        New-DscChecksum                                    1.1        PSDesiredStateConfiguration
+Function        New-EapConfiguration                               2.0.0.0    VpnClient
+Function        New-EtwTraceSession                                1.0.0.0    EventTracingManagement
+Function        New-FileShare                                      2.0.0.0    Storage
+Function        New-Fixture                                        3.4.0      Pester
+Function        New-Guid                                           3.1.0.0    Microsoft.PowerShell.Utility
+Function        New-IscsiTargetPortal                              1.0.0.0    iSCSI
+Function        New-IseSnippet                                     1.0.0.0    ISE
+Function        New-MaskingSet                                     2.0.0.0    Storage
+Function        New-NetAdapterAdvancedProperty                     2.0.0.0    NetAdapter
+Function        New-NetEventSession                                1.0.0.0    NetEventPacketCapture
+Function        New-NetFirewallRule                                2.0.0.0    NetSecurity
+Function        New-NetIPAddress                                   1.0.0.0    NetTCPIP
+Function        New-NetIPHttpsConfiguration                        1.0.0.0    NetworkTransition
+Function        New-NetIPsecDospSetting                            2.0.0.0    NetSecurity
+Function        New-NetIPsecMainModeCryptoSet                      2.0.0.0    NetSecurity
+Function        New-NetIPsecMainModeRule                           2.0.0.0    NetSecurity
+Function        New-NetIPsecPhase1AuthSet                          2.0.0.0    NetSecurity
+Function        New-NetIPsecPhase2AuthSet                          2.0.0.0    NetSecurity
+Function        New-NetIPsecQuickModeCryptoSet                     2.0.0.0    NetSecurity
+Function        New-NetIPsecRule                                   2.0.0.0    NetSecurity
+Function        New-NetLbfoTeam                                    2.0.0.0    NetLbfo
+Function        New-NetNat                                         1.0.0.0    NetNat
+Function        New-NetNatTransitionConfiguration                  1.0.0.0    NetworkTransition
+Function        New-NetNeighbor                                    1.0.0.0    NetTCPIP
+Function        New-NetQosPolicy                                   2.0.0.0    NetQos
+Function        New-NetRoute                                       1.0.0.0    NetTCPIP
+Function        New-NetSwitchTeam                                  1.0.0.0    NetSwitchTeam
+Function        New-NetTransportFilter                             1.0.0.0    NetTCPIP
+Function        New-NetworkSwitchVlan                              1.0.0.0    NetworkSwitchManager
+Function        New-Partition                                      2.0.0.0    Storage
+Function        New-PesterOption                                   3.4.0      Pester
+Function        New-PSWorkflowSession                              2.0.0.0    PSWorkflow
+Function        New-ScheduledTask                                  1.0.0.0    ScheduledTasks
+Function        New-ScheduledTaskAction                            1.0.0.0    ScheduledTasks
+Function        New-ScheduledTaskPrincipal                         1.0.0.0    ScheduledTasks
+Function        New-ScheduledTaskSettingsSet                       1.0.0.0    ScheduledTasks
+Function        New-ScheduledTaskTrigger                           1.0.0.0    ScheduledTasks
+Function        New-ScriptFileInfo                                 1.0.0.1    PowerShellGet
+Function        New-SmbGlobalMapping                               2.0.0.0    SmbShare
+Function        New-SmbMapping                                     2.0.0.0    SmbShare
+Function        New-SmbMultichannelConstraint                      2.0.0.0    SmbShare
+Function        New-SmbShare                                       2.0.0.0    SmbShare
+Function        New-StorageFileServer                              2.0.0.0    Storage
+Function        New-StoragePool                                    2.0.0.0    Storage
+Function        New-StorageSubsystemVirtualDisk                    2.0.0.0    Storage
+Function        New-StorageTier                                    2.0.0.0    Storage
+Function        New-TemporaryFile                                  3.1.0.0    Microsoft.PowerShell.Utility
+Function        New-VirtualDisk                                    2.0.0.0    Storage
+Function        New-VirtualDiskClone                               2.0.0.0    Storage
+Function        New-VirtualDiskSnapshot                            2.0.0.0    Storage
+Function        New-Volume                                         2.0.0.0    Storage
+Function        New-VpnServerAddress                               2.0.0.0    VpnClient
+Function        O:
+Function        Open-NetGPO                                        2.0.0.0    NetSecurity
+Function        Optimize-StoragePool                               2.0.0.0    Storage
+Function        Optimize-Volume                                    2.0.0.0    Storage
+Function        oss
+Function        P:
+Function        Pause
+Function        prompt
+Function        PSConsoleHostReadline                              1.2        PSReadline
+Function        Publish-Module                                     1.0.0.1    PowerShellGet
+Function        Publish-Script                                     1.0.0.1    PowerShellGet
+Function        Q:
+Function        R:
+Function        Read-PrinterNfcTag                                 1.1        PrintManagement
+Function        Register-ClusteredScheduledTask                    1.0.0.0    ScheduledTasks
+Function        Register-DnsClient                                 1.0.0.0    DnsClient
+Function        Register-IscsiSession                              1.0.0.0    iSCSI
+Function        Register-PSRepository                              1.0.0.1    PowerShellGet
+Function        Register-ScheduledTask                             1.0.0.0    ScheduledTasks
+Function        Register-StorageSubsystem                          2.0.0.0    Storage
+Function        Remove-AutologgerConfig                            1.0.0.0    EventTracingManagement
+Function        Remove-BitLockerKeyProtector                       1.0.0.0    BitLocker
+Function        Remove-DAEntryPointTableItem                       1.0.0.0    DirectAccessClientComponents
+Function        Remove-DnsClientNrptRule                           1.0.0.0    DnsClient
+Function        Remove-DscConfigurationDocument                    1.1        PSDesiredStateConfiguration
+Function        Remove-DtcClusterTMMapping                         1.0.0.0    MsDtc
+Function        Remove-EtwTraceProvider                            1.0.0.0    EventTracingManagement
+Function        Remove-FileShare                                   2.0.0.0    Storage
+Function        Remove-InitiatorId                                 2.0.0.0    Storage
+Function        Remove-InitiatorIdFromMaskingSet                   2.0.0.0    Storage
+Function        Remove-IscsiTargetPortal                           1.0.0.0    iSCSI
+Function        Remove-MaskingSet                                  2.0.0.0    Storage
+Function        Remove-MpPreference                                1.0        Defender
+Function        Remove-MpThreat                                    1.0        Defender
+Function        Remove-NetAdapterAdvancedProperty                  2.0.0.0    NetAdapter
+Function        Remove-NetEventNetworkAdapter                      1.0.0.0    NetEventPacketCapture
+Function        Remove-NetEventPacketCaptureProvider               1.0.0.0    NetEventPacketCapture
+Function        Remove-NetEventProvider                            1.0.0.0    NetEventPacketCapture
+>> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\WINDOWS\system32> get-command -noun Service
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Get-Service                                        3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          New-Service                                        3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Restart-Service                                    3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Resume-Service                                     3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Set-Service                                        3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Start-Service                                      3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Stop-Service                                       3.1.0.0    Microsoft.PowerShell.Management
+Cmdlet          Suspend-Service                                    3.1.0.0    Microsoft.PowerShell.Management
+
+
+PS C:\WINDOWS\system32> get-service
+
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  AJRouter           AllJoyn Router Service
+Stopped  ALG                Application Layer Gateway Service
+Running  AppHostSvc         Application Host Helper Service
+Stopped  AppIDSvc           Application Identity
+Running  Appinfo            Application Information
+Running  AppleOSSMgr        Apple OS Switch Manager
+Stopped  AppReadiness       App Readiness
+Running  AppXSvc            AppX Deployment Service (AppXSVC)
+Stopped  aspnet_state       ASP.NET State Service
+Running  AudioEndpointBu... Windows Audio Endpoint Builder
+Running  Audiosrv           Windows Audio
+Stopped  AxInstSV           ActiveX Installer (AxInstSV)
+Stopped  BcastDVRUserSer... GameDVR and Broadcast User Service_...
+Stopped  BDESVC             BitLocker Drive Encryption Service
+Running  BFE                Base Filtering Engine
+Running  BITS               Background Intelligent Transfer Ser...
+Stopped  BluetoothUserSe... Bluetooth User Support Service_2afcae6
+Running  BrokerInfrastru... Background Tasks Infrastructure Ser...
+Running  Browser            Computer Browser
+Running  BTAGService        Bluetooth Audio Gateway Service
+Running  BthAvctpSvc        AVCTP service
+Running  bthserv            Bluetooth Support Service
+Running  camsvc             Capability Access Manager Service
+Running  CDPSvc             Connected Devices Platform Service
+Running  CDPUserSvc_2afcae6 Connected Devices Platform User Ser...
+Running  CertPropSvc        Certificate Propagation
+Running  ClipSVC            Client License Service (ClipSVC)
+Stopped  COMSysApp          COM+ System Application
+Running  CoreMessagingRe... CoreMessaging
+Running  cpextender         Check Point SSL Network Extender
+Running  CryptSvc           Cryptographic Services
+Running  DcomLaunch         DCOM Server Process Launcher
+Stopped  defragsvc          Optimize drives
+Running  DeviceAssociati... Device Association Service
+Stopped  DeviceInstall      Device Install Service
+Stopped  DevicePickerUse... DevicePicker_2afcae6
+Stopped  DevicesFlowUser... DevicesFlow_2afcae6
+Stopped  DevQueryBroker     DevQuery Background Discovery Broker
+Running  Dhcp               DHCP Client
+Stopped  diagnosticshub.... Microsoft (R) Diagnostics Hub Stand...
+Stopped  diagsvc            Diagnostic Execution Service
+Running  DiagTrack          Connected User Experiences and Tele...
+Stopped  DmEnrollmentSvc    Device Management Enrollment Service
+Stopped  dmwappushservice   dmwappushsvc
+Running  Dnscache           DNS Client
+Stopped  DoSvc              Delivery Optimization
+Stopped  dot3svc            Wired AutoConfig
+Running  DPS                Diagnostic Policy Service
+Stopped  DsmSvc             Device Setup Manager
+Running  DsSvc              Data Sharing Service
+Running  DusmSvc            Data Usage
+Stopped  Eaphost            Extensible Authentication Protocol
+Stopped  EFS                Encrypting File System (EFS)
+Stopped  embeddedmode       Embedded Mode
+Stopped  EntAppSvc          Enterprise App Management Service
+Running  EventLog           Windows Event Log
+Running  EventSystem        COM+ Event System
+Stopped  Fax                Fax
+Stopped  fdPHost            Function Discovery Provider Host
+Stopped  FDResPub           Function Discovery Resource Publica...
+Stopped  fhsvc              File History Service
+Running  FontCache          Windows Font Cache Service
+Stopped  FontCache3.0.0.0   Windows Presentation Foundation Fon...
+Stopped  FrameServer        Windows Camera Frame Server
+Running  ftpsvc             Microsoft FTP Service
+Running  gpsvc              Group Policy Client
+Stopped  GraphicsPerfSvc    GraphicsPerfSvc
+Stopped  gupdate            Google Update Service (gupdate)
+Stopped  gupdatem           Google Update Service (gupdatem)
+Running  hidserv            Human Interface Device Service
+Stopped  HvHost             HV Host Service
+Stopped  icssvc             Windows Mobile Hotspot Service
+Running  IISADMIN           IIS Admin Service
+Stopped  IKEEXT             IKE and AuthIP IPsec Keying Modules
+Stopped  InstallService     Microsoft Store Install Service
+Stopped  Intel(R) Capabi... Intel(R) Capability Licensing Servi...
+Running  iphlpsvc           IP Helper
+Stopped  IpxlatCfgSvc       IP Translation Configuration Service
+Stopped  irmon              Infrared monitor service
+Running  jhi_service        Intel(R) Dynamic Application Loader...
+Running  KeyIso             CNG Key Isolation
+Stopped  KtmRm              KtmRm for Distributed Transaction C...
+Running  LanmanServer       Server
+Running  LanmanWorkstation  Workstation
+Running  lfsvc              Geolocation Service
+Running  LicenseManager     Windows License Manager Service
+Stopped  lltdsvc            Link-Layer Topology Discovery Mapper
+Running  lmhosts            TCP/IP NetBIOS Helper
+Running  LMS                Intel(R) Management and Security Ap...
+Running  LSM                Local Session Manager
+Stopped  LxpSvc             Language Experience Service
+Stopped  MapsBroker         Downloaded Maps Manager
+Stopped  MessagingServic... MessagingService_2afcae6
+Running  mpssvc             Windows Defender Firewall
+Stopped  MSDTC              Distributed Transaction Coordinator
+Running  MsDtsServer130     SQL Server Integration Services 13.0
+Stopped  MSiSCSI            Microsoft iSCSI Initiator Service
+Stopped  msiserver          Windows Installer
+Stopped  MsMpiLaunchSvc     MS-MPI Launch Service
+Running  MSSQLFDLauncher    SQL Full-text Filter Daemon Launche...
+Running  MSSQLLaunchpad     SQL Server Launchpad (MSSQLSERVER)
+Running  MSSQLSERVER        SQL Server (MSSQLSERVER)
+Running  MSSQLServerOLAP... SQL Server Analysis Services (MSSQL...
+Stopped  NaturalAuthenti... Natural Authentication
+Stopped  NcaSvc             Network Connectivity Assistant
+Running  NcbService         Network Connection Broker
+Running  NcdAutoSetup       Network Connected Devices Auto-Setup
+Stopped  Netlogon           Netlogon
+Stopped  Netman             Network Connections
+Running  netprofm           Network List Service
+Stopped  NetSetupSvc        Network Setup Service
+Stopped  NetTcpPortSharing  Net.Tcp Port Sharing Service
+Stopped  NgcCtnrSvc         Microsoft Passport Container
+Stopped  NgcSvc             Microsoft Passport
+Running  NlaSvc             Network Location Awareness
+Running  nsi                Network Store Interface Service
+Running  OneSyncSvc_2afcae6 Sync Host_2afcae6
+Stopped  p2pimsvc           Peer Networking Identity Manager
+Stopped  p2psvc             Peer Networking Grouping
+Running  PcaSvc             Program Compatibility Assistant Ser...
+Stopped  PerfHost           Performance Counter DLL Host
+Running  PhoneSvc           Phone Service
+Running  PimIndexMainten... Contact Data_2afcae6
+Stopped  pla                Performance Logs & Alerts
+Running  PlugPlay           Plug and Play
+Stopped  PNRPAutoReg        PNRP Machine Name Publication Service
+Stopped  PNRPsvc            Peer Name Resolution Protocol
+Running  PolicyAgent        IPsec Policy Agent
+Running  Power              Power
+Stopped  PrintNotify        Printer Extensions and Notifications
+Stopped  PrintWorkflowUs... PrintWorkflow_2afcae6
+Running  ProfSvc            User Profile Service
+Stopped  PushToInstall      Windows PushToInstall Service
+Stopped  QWAVE              Quality Windows Audio Video Experience
+Stopped  RasAuto            Remote Access Auto Connection Manager
+Running  RasMan             Remote Access Connection Manager
+Stopped  RemoteAccess       Routing and Remote Access
+Stopped  RemoteRegistry     Remote Registry
+Stopped  ReportServer       SQL Server Reporting Services (MSSQ...
+Stopped  RetailDemo         Retail Demo Service
+Running  RmSvc              Radio Management Service
+Running  RpcEptMapper       RPC Endpoint Mapper
+Stopped  RpcLocator         Remote Procedure Call (RPC) Locator
+Running  RpcSs              Remote Procedure Call (RPC)
+Running  SamSs              Security Accounts Manager
+Stopped  SCardSvr           Smart Card
+Stopped  ScDeviceEnum       Smart Card Device Enumeration Service
+Running  Schedule           Task Scheduler
+Stopped  SCPolicySvc        Smart Card Removal Policy
+Stopped  SDRSVC             Windows Backup
+Running  seclogon           Secondary Logon
+Running  SecurityHealthS... Windows Defender Security Center Se...
+Running  SEMgrSvc           Payments and NFC/SE Manager
+Running  SENS               System Event Notification Service
+Stopped  SensorDataService  Sensor Data Service
+Running  SensorService      Sensor Service
+Stopped  SensrSvc           Sensor Monitoring Service
+Running  SessionEnv         Remote Desktop Configuration
+Running  SgrmBroker         System Guard Runtime Monitor Broker
+Stopped  SharedAccess       Internet Connection Sharing (ICS)
+Stopped  SharedRealitySvc   Spatial Data Service
+Running  ShellHWDetection   Shell Hardware Detection
+Stopped  shpamsvc           Shared PC Account Manager
+Stopped  smphost            Microsoft Storage Spaces SMP
+Stopped  SmsRouter          Microsoft Windows SMS Router Service.
+Stopped  SNMPTRAP           SNMP Trap
+Stopped  spectrum           Windows Perception Service
+Running  Spooler            Print Spooler
+Stopped  sppsvc             Software Protection
+Stopped  SQL Server Dist... SQL Server Distributed Replay Client
+Stopped  SQL Server Dist... SQL Server Distributed Replay Contr...
+Stopped  SQLBrowser         SQL Server Browser
+Stopped  SQLSERVERAGENT     SQL Server Agent (MSSQLSERVER)
+Running  SQLTELEMETRY       SQL Server CEIP service (MSSQLSERVER)
+Running  SQLWriter          SQL Server VSS Writer
+Running  SSASTELEMETRY      SQL Server Analysis Services CEIP (...
+Running  SSDPSRV            SSDP Discovery
+Stopped  ssh-agent          OpenSSH Authentication Agent
+Running  SSISTELEMETRY130   SQL Server Integration Services CEI...
+Running  SstpSvc            Secure Socket Tunneling Protocol Se...
+Running  StateRepository    State Repository Service
+Stopped  stisvc             Windows Image Acquisition (WIA)
+Running  StorSvc            Storage Service
+Stopped  svsvc              Spot Verifier
+Stopped  swprv              Microsoft Software Shadow Copy Prov...
+Running  SysMain            Superfetch
+Running  SystemEventsBroker System Events Broker
+Running  TabletInputService Touch Keyboard and Handwriting Pane...
+Stopped  TapiSrv            Telephony
+Running  TermService        Remote Desktop Services
+Running  Themes             Themes
+Stopped  TieringEngineSe... Storage Tiers Management
+Running  TimeBrokerSvc      Time Broker
+Running  TokenBroker        Web Account Manager
+Running  TrkWks             Distributed Link Tracking Client
+Stopped  TrustedInstaller   Windows Modules Installer
+Stopped  tzautoupdate       Auto Time Zone Updater
+Stopped  UmRdpService       Remote Desktop Services UserMode Po...
+Running  UnistoreSvc_2af... User Data Storage_2afcae6
+Stopped  upnphost           UPnP Device Host
+Running  UserDataSvc_2af... User Data Access_2afcae6
+Running  UserManager        User Manager
+Running  UsoSvc             Update Orchestrator Service
+Stopped  VacSvc             Volumetric Audio Compositor Service
+Running  VaultSvc           Credential Manager
+Stopped  vds                Virtual Disk
+Stopped  vmicguestinterface Hyper-V Guest Service Interface
+Stopped  vmicheartbeat      Hyper-V Heartbeat Service
+Stopped  vmickvpexchange    Hyper-V Data Exchange Service
+Stopped  vmicrdv            Hyper-V Remote Desktop Virtualizati...
+Stopped  vmicshutdown       Hyper-V Guest Shutdown Service
+Stopped  vmictimesync       Hyper-V Time Synchronization Service
+Stopped  vmicvmsession      Hyper-V PowerShell Direct Service
+Stopped  vmicvss            Hyper-V Volume Shadow Copy Requestor
+Stopped  VSS                Volume Shadow Copy
+Stopped  VSStandardColle... Visual Studio Standard Collector Se...
+Stopped  VSStandardColle... Visual Studio Standard Collector Se...
+Stopped  W32Time            Windows Time
+Stopped  w3logsvc           W3C Logging Service
+Running  W3SVC              World Wide Web Publishing Service
+Stopped  WaaSMedicSvc       Windows Update Medic Service
+Stopped  WalletService      WalletService
+Stopped  WarpJITSvc         WarpJITSvc
+Running  WAS                Windows Process Activation Service
+Stopped  wbengine           Block Level Backup Engine Service
+Stopped  WbioSrvc           Windows Biometric Service
+Running  Wcmsvc             Windows Connection Manager
+Stopped  wcncsvc            Windows Connect Now - Config Registrar
+Running  WdiServiceHost     Diagnostic Service Host
+Running  WdiSystemHost      Diagnostic System Host
+Running  WdNisSvc           Windows Defender Antivirus Network ...
+Stopped  WebClient          WebClient
+Stopped  Wecsvc             Windows Event Collector
+Stopped  WEPHOSTSVC         Windows Encryption Provider Host Se...
+Stopped  wercplsupport      Problem Reports and Solutions Contr...
+Stopped  WerSvc             Windows Error Reporting Service
+Stopped  WFDSConMgrSvc      Wi-Fi Direct Services Connection Ma...
+Stopped  WiaRpc             Still Image Acquisition Events
+Running  WinDefend          Windows Defender Antivirus Service
+Running  WinHttpAutoProx... WinHTTP Web Proxy Auto-Discovery Se...
+Running  Winmgmt            Windows Management Instrumentation
+Stopped  WinRM              Windows Remote Management (WS-Manag...
+Stopped  wisvc              Windows Insider Service
+Running  WlanSvc            WLAN AutoConfig
+Stopped  wlidsvc            Microsoft Account Sign-in Assistant
+Stopped  wlpasvc            Local Profile Assistant Service
+Stopped  wmiApSrv           WMI Performance Adapter
+Stopped  WMPNetworkSvc      Windows Media Player Network Sharin...
+Stopped  WMSVC              Web Management Service
+Stopped  workfolderssvc     Work Folders
+Stopped  WpcMonSvc          Parental Controls
+Stopped  WPDBusEnum         Portable Device Enumerator Service
+Running  WpnService         Windows Push Notifications System S...
+Running  WpnUserService_... Windows Push Notifications User Ser...
+Running  wscsvc             Security Center
+Running  WSearch            Windows Search
+Stopped  wuauserv           Windows Update
+Stopped  WwanSvc            WWAN AutoConfig
+Stopped  xbgm               Xbox Game Monitoring
+Stopped  XblAuthManager     Xbox Live Auth Manager
+Stopped  XblGameSave        Xbox Live Game Save
+Stopped  XboxGipSvc         Xbox Accessory Management Service
+Stopped  XboxNetApiSvc      Xbox Live Networking Service
+
+
+PS C:\WINDOWS\system32> get-help get-service
+
+NAME
+    Get-Service
+
+SYNOPSIS
+    Gets the services on a local or remote computer.
+
+
+SYNTAX
+    Get-Service [-ComputerName <String[]>] [-DependentServices] -DisplayName <String[]> [-Exclude <String[]>] [-Include <String[]>]
+    [-RequiredServices] [<CommonParameters>]
+
+    Get-Service [-ComputerName <String[]>] [-DependentServices] [-Exclude <String[]>] [-Include <String[]>] [-InputObject <ServiceController[]>]
+    [-RequiredServices] [<CommonParameters>]
+
+    Get-Service [[-Name] <String[]>] [-ComputerName <String[]>] [-DependentServices] [-Exclude <String[]>] [-Include <String[]>]
+    [-RequiredServices] [<CommonParameters>]
+
+
+DESCRIPTION
+    The Get-Service cmdlet gets objects that represent the services on a local computer or on a remote computer, including running and stopped
+    services.
+
+    You can direct this cmdlet to get only particular services by specifying the service name or display name of the services, or you can pipe
+    service objects to this cmdlet.
+
+
+RELATED LINKS
+    Online Version: http://go.microsoft.com/fwlink/?LinkId=821593
+    New-Service
+    Restart-Service
+    Resume-Service
+    Set-Service
+    Start-Service
+    Stop-Service
+    Suspend-Service
+
+REMARKS
+    To see the examples, type: "get-help Get-Service -examples".
+    For more information, type: "get-help Get-Service -detailed".
+    For technical information, type: "get-help Get-Service -full".
+    For online help, type: "get-help Get-Service -online"
+
+
+PS C:\WINDOWS\system32> get-service -online
+>> TerminatingError(Get-Service): "A parameter cannot be found that matches parameter name 'online'."
+Get-Service : A parameter cannot be found that matches parameter name 'online'.
+At line:1 char:13
++ get-service -online
++             ~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Service], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.GetServiceCommand
+Get-Service : A parameter cannot be found that matches parameter name 'online'.
+At line:1 char:13
++ get-service -online
++             ~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Service], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.GetServiceCommand
+
+PS C:\WINDOWS\system32> get-help get-service -online
+PS C:\WINDOWS\system32> cls
+PS C:\WINDOWS\system32> Get-PSDrive
+
+Name           Used (GB)     Free (GB) Provider      Root                                C
+                                                                                         u
+                                                                                         r
+                                                                                         r
+                                                                                         e
+                                                                                         n
+                                                                                         t
+                                                                                         L
+                                                                                         o
+                                                                                         c
+                                                                                         a
+                                                                                         t
+                                                                                         i
+                                                                                         o
+                                                                                         n
+----           ---------     --------- --------      ----                                -
+Alias                                  Alias
+C                  96.23        136.19 FileSystem    C:\                                 2
+Cert                                   Certificate   \
+E                                      FileSystem    E:\
+Env                                    Environment
+Function                               Function
+HKCU                                   Registry      HKEY_CURRENT_USER
+HKLM                                   Registry      HKEY_LOCAL_MACHINE
+Variable                               Variable
+WSMan                                  WSMan
+
+
+PS C:\WINDOWS\system32> get-alias ?
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           h -> Get-History
+Alias           r -> Invoke-History
+
+
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_free -gt 1}
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1}
+
+Name           Used (GB)     Free (GB) Provider      Root                                C
+                                                                                         u
+                                                                                         r
+                                                                                         r
+                                                                                         e
+                                                                                         n
+                                                                                         t
+                                                                                         L
+                                                                                         o
+                                                                                         c
+                                                                                         a
+                                                                                         t
+                                                                                         i
+                                                                                         o
+                                                                                         n
+----           ---------     --------- --------      ----                                -
+C                  96.23        136.19 FileSystem    C:\                                 2
+
+
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | Select-Object Root Used Free
+>> TerminatingError(Select-Object): "A positional parameter cannot be found that accepts argument 'Used'."
+Select-Object : A positional parameter cannot be found that accepts argument 'Used'.
+At line:1 char:46
++ ... PSDrive | Where-Object {$_.free -gt 1} | Select-Object Root Used Free
++                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SelectObjectCommand
+Select-Object : A positional parameter cannot be found that accepts argument 'Used'.
+At line:1 char:46
++ ... PSDrive | Where-Object {$_.free -gt 1} | Select-Object Root Used Free
++                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Select-Object], ParameterBindingExcep
+   tion
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.S
+   electObjectCommand
+
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | Select-Object Root, Used, Free
+
+Root         Used         Free
+----         ----         ----
+C:\  103319166976 146237149184
+
+
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | Select-Object *
+
+
+Used            : 103317995520
+Free            : 146238320640
+CurrentLocation : WINDOWS\system32
+Name            : C
+Provider        : Microsoft.PowerShell.Core\FileSystem
+Root            : C:\
+Description     : BOOTCAMP
+MaximumSize     :
+Credential      : System.Management.Automation.PSCredential
+DisplayRoot     :
+
+
+
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object {"Zebra"}
+Zebra
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object {"Zebra"}
+Zebra
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object {Write-Host "Fee Space for" $_.root "is" $_.free -ForegroundColor red}
+Fee Space for C:\ is 146235203584
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object {Write-Host "Free Space for" $_.root "is" $_.free -ForegroundColor red}
+Free Space for C:\ is 146235203584
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object {Write-Host "Free Space for" $_.root "is" ($_.free/1024/1024/1024) -ForegroundColor red}
+Free Space for C:\ is 136.187030792236
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object {Write-Host "Free Space for" $_.root "is" ($_.free/1gb) -ForegroundColor red}
+Free Space for C:\ is 136.186920166016
+PS C:\WINDOWS\system32> "{0:N0}" -f 1000000000
+1,000,000,000
+PS C:\WINDOWS\system32> "{0:N2}" -f 1000000000
+1,000,000,000.00
+PS C:\WINDOWS\system32> "{0:C2}" -f 1000000000
+$1,000,000,000.00
+PS C:\WINDOWS\system32> "{0:P2}" -f 1000000000
+100,000,000,000.00%
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object {Write-Host "Free Space for" $_.root "is" ("{0:N2}", -f ($_.free/1gb)) -ForegroundColor red}
+At line:1 char:113
++ ... h-Object {Write-Host "Free Space for" $_.root "is" ("{0:N2}", -f ($_. ...
++                                                                  ~
+Missing expression after ','.
+At line:1 char:113
++ ... h-Object {Write-Host "Free Space for" $_.root "is" ("{0:N2}", -f ($_. ...
++                                                                  ~
+Missing expression after ','.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterToken
+
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object {Write-Host "Free Space for" $_.root "is" ("{0:N2}" -f ($_.free/1gb)) -ForegroundColor red}
+Free Space for C:\ is 136.19
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object{$c = 0; write-host "This section runs only once"}{$c = $c+ 1;write-host "This section is repeated for each of the object"}{write-host "This section is executed at the end of. The value of the variab;e c is " $c}
+This section runs only once
+This section is repeated for each of the object
+This section is executed at the end of. The value of the variab;e c is  1
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object{$c = 0; write-host "This section runs only once"}{$c = $c+ 1;write-host "This section is repeated for each of the object"}{write-host "This section is executed at the end of. The value of the variable c is " $c}
+This section runs only once
+This section is repeated for each of the object
+This section is executed at the end of. The value of the variable c is  1
+PS C:\WINDOWS\system32> cls
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object{$count = 0;write-host "";}{$_.name + ": Used:" + "{0:N2}" -f ($_.used/1gb) + " Total : " + "{0:N2}" -f (($_.used/1gb) + ($_.free/1gb));$count - $count + ($_.free);}{write-host ""; write-host "Total Free Space : " }
+
+C: Used:96.36 Total : 232.42
+146095497216
+
+Total Free Space :
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object{$count = 0;write-host "";}{$_.name + ": Used:" + "{0:N2}" -f ($_.used/1gb) + " Total : " + "{0:N2}" -f (($_.used/1gb) + ($_.free/1gb));$count - $count + ($_.free);}{write-host ""; write-host "Total Free Space :" + "{0:N2}" -f ($count/1gb) -BackgroundColor magenta }
+
+C: Used:96.36 Total : 232.42
+146093871104
+
+Total Free Space : + {0:N2}
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object{$count = 0;write-host "";}{$_.name + ": Used:" + "{0:N2}" -f ($_.used/1gb) + " Total : " + "{0:N2}" -f (($_.used/1gb) + ($_.free/1gb));$count - $count + ($_.free);}{write-host ""; write-host "Total Free Space :" + "{0:N2}" -f (($count/1gb)); -BackgroundColor magenta }
+
+C: Used:96.36 Total : 232.42
+146093215744
+
+Total Free Space : + {0:N2}
+-BackgroundColor : The term '-BackgroundColor' is not recognized as the name of a cmdlet, function, script file, or 
+operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try 
+again.
+At line:1 char:303
++ ...  Free Space :" + "{0:N2}" -f (($count/1gb)); -BackgroundColor magenta ...
++                                                  ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (-BackgroundColor:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+-BackgroundColor : The term '-BackgroundColor' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:303
++ ...  Free Space :" + "{0:N2}" -f (($count/1gb)); -BackgroundColor magenta ...
++                                                  ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (-BackgroundColor:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object{$count = 0;write-host "";}{$_.name + ": Used:" + "{0:N2}" -f ($_.used/1gb) + " Total : " + "{0:N2}" -f (($_.used/1gb) + ($_.free/1gb));$count - $count + ($_.free);}{write-host ""; write-host "Total Free Space :" + "{0:N2}" -f (($count/1gb)) -BackgroundColor magenta }
+
+C: Used:96.36 Total : 232.42
+146093215744
+
+Total Free Space : + {0:N2}
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object{$count = 0;write-host "";}{$_.name + ": Used:" + "{0:N2}" -f ($_.used/1gb) + "Free: "+ "{0:N2}" -f ($_.free/1gb) + " Total : " + "{0:N2}" -f (($_.used/1gb) + ($_.free/1gb));$count - $count + ($_.free);}{write-host ""; write-host "Total Free Space :" + "{0:N2}" -f (($count/1gb)) -BackgroundColor magenta }
+
+C: Used:96.36Free: 136.06 Total : 232.42
+146095456256
+
+Total Free Space : + {0:N2}
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object{$count = 0;write-host "";}{$_.name + ": Used:" + "{0:N2}" -f ($_.used/1gb) + " Free: "+ "{0:N2}" -f ($_.free/1gb) + " Total : " + "{0:N2}" -f (($_.used/1gb) + ($_.free/1gb));$count - $count + ($_.free);}{write-host ""; write-host "Total Free Space :" + "{0:N2}" -f (($count/1gb)) -BackgroundColor magenta }
+
+C: Used:96.35 Free: 136.06 Total : 232.42
+146096214016
+
+Total Free Space : + {0:N2}
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object{$count = 0;write-host "";}{$_.name + ": Used:" + "{0:N2}" -f ($_.used/1gb) + " Free: "+ "{0:N2}" -f ($_.free/1gb) + " Total : " + "{0:N2}" -f (($_.used/1gb) + ($_.free/1gb));$count - $count + ($_.free);}{write-host ""; write-host "Total Free Space :" + ("{0:N2}" -f ($count/1gb)) -BackgroundColor magenta }
+
+C: Used:96.36 Free: 136.06 Total : 232.42
+146093375488
+
+Total Free Space : + 0.00
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object{$count = 0;write-host "";}{$_.name + ": Used:" + "{0:N2}" -f ($_.used/1gb) + " Free: "+ "{0:N2}" -f ($_.free/1gb) + " Total : " + "{0:N2}" -f (($_.used/1gb) + ($_.free/1gb));$count - $count + ($_.free);}{write-host ""; write-host "Total Free Space :"  ("{0:N2}" -f ($count/1gb)) -BackgroundColor magenta }
+
+C: Used:96.35 Free: 136.06 Total : 232.42
+146098675712
+
+Total Free Space : 0.00
+PS C:\WINDOWS\system32> Get-PSDrive | Where-Object {$_.free -gt 1} | ForEach-Object{$count = 0;write-host "";}{$_.name + ": Used:" + "{0:N2}" -f ($_.used/1gb) + " Free: "+ "{0:N2}" -f ($_.free/1gb) + " Total : " + "{0:N2}" -f (($_.used/1gb) + ($_.free/1gb));$count = $count + ($_.free);}{write-host ""; write-host "Total Free Space :"  ("{0:N2}" -f ($count/1gb)) -BackgroundColor magenta }
+
+C: Used:96.36 Free: 136.06 Total : 232.42
+
+Total Free Space : 136.06

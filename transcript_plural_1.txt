@@ -1,0 +1,100 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180803231039
+Username: DESKTOP-24IJDG4\Himanshu
+RunAs User: DESKTOP-24IJDG4\Himanshu
+Configuration Name: 
+Machine: DESKTOP-24IJDG4 (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 11700
+PSVersion: 5.1.17134.165
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.165
+BuildVersion: 10.0.17134.165
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Himanshu\Source\Code\powershell\transcript_plural_1.txt
+PS C:\Himanshu\Source\code\powershell> cls
+PS C:\Himanshu\Source\code\powershell> md Demo
+
+
+    Directory: C:\Himanshu\Source\code\powershell
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        3/08/2018  11:11 PM                Demo
+
+
+PS C:\Himanshu\Source\code\powershell> dir
+
+
+    Directory: C:\Himanshu\Source\code\powershell
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        3/08/2018  11:11 PM                Demo
+-a----       25/07/2018   9:58 PM             67 FirstScript.ps1
+-a----       19/07/2018  12:59 AM         119216 PowerShell_transcript.DESKTOP-24IJDG4.bjSkDG9v.20180718234550.txt
+-a----       17/07/2018  11:12 PM         411243 PowerShell_transcript.DESKTOP-24IJDG4.EmaNo1Fv.20180717224543.txt
+-a----       25/07/2018  11:19 PM           2099 PowerShell_transcript.DESKTOP-24IJDG4.XfUT++8J.20180725223504.txt
+-a----        3/08/2018  11:10 PM            719 transcript_plural_1.txt
+
+
+PS C:\Himanshu\Source\code\powershell> cd demo
+PS C:\Himanshu\Source\code\powershell\demo> ls
+
+
+    Directory: C:\Himanshu\Source\code\powershell\demo
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        3/08/2018  11:11 PM              0 File1.txt
+
+
+PS C:\Himanshu\Source\code\powershell\demo> copy .\File1.txt .\File2.txt
+PS C:\Himanshu\Source\code\powershell\demo> ls
+
+
+    Directory: C:\Himanshu\Source\code\powershell\demo
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        3/08/2018  11:11 PM              0 File1.txt
+-a----        3/08/2018  11:11 PM              0 File2.txt
+
+
+PS C:\Himanshu\Source\code\powershell\demo> cls
+PS C:\Himanshu\Source\code\powershell\demo> Set-Alias list Get-ChildItem
+PS C:\Himanshu\Source\code\powershell\demo> list
+
+
+    Directory: C:\Himanshu\Source\code\powershell\demo
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        3/08/2018  11:11 PM              0 File1.txt
+-a----        3/08/2018  11:11 PM              0 File2.txt
+
+
+PS C:\Himanshu\Source\code\powershell\demo> Export-Alias "./MyAlias.csv" list
+PS C:\Himanshu\Source\code\powershell\demo> dir
+
+
+    Directory: C:\Himanshu\Source\code\powershell\demo
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        3/08/2018  11:11 PM              0 File1.txt
+-a----        3/08/2018  11:11 PM              0 File2.txt
+-a----        3/08/2018  11:19 PM            308 MyAlias.csv
+
+

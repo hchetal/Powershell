@@ -1,0 +1,503 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180810224714
+Username: DESKTOP-24IJDG4\Himanshu
+RunAs User: DESKTOP-24IJDG4\Himanshu
+Configuration Name: 
+Machine: DESKTOP-24IJDG4 (Microsoft Windows NT 10.0.17134.0)
+Host Application: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 14312
+PSVersion: 5.1.17134.165
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.165
+BuildVersion: 10.0.17134.165
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Himanshu\Source\Code\Powershell\PowerShell_transcript.DESKTOP-24IJDG4.fOlCALIv.20180810224714.txt
+PS C:\Himanshu\source\code\Powershell> cls
+PS C:\Himanshu\source\code\Powershell> Clear-Host
+PS C:\Himanshu\source\code\Powershell> Get-PSProvider
+
+Name                 Capabilities                                                 Drives
+----                 ------------                                                 ------
+Registry             ShouldProcess, Transactions                                  {HKLM, HKCU}
+Alias                ShouldProcess                                                {Alias}
+Environment          ShouldProcess                                                {Env}
+FileSystem           Filter, ShouldProcess, Credentials                           {C, E}
+Function             ShouldProcess                                                {Function}
+Variable             ShouldProcess                                                {Variable}
+
+
+PS C:\Himanshu\source\code\Powershell> Get-PSDrive
+
+Name           Used (GB)     Free (GB) Provider      Root                                                                     CurrentLocation
+----           ---------     --------- --------      ----                                                                     ---------------
+Alias                                  Alias
+C                  94.89        137.53 FileSystem    C:\                                                      Himanshu\source\code\Powershell
+Cert                                   Certificate   \
+E                                      FileSystem    E:\
+Env                                    Environment
+Function                               Function
+HKCU                                   Registry      HKEY_CURRENT_USER
+HKLM                                   Registry      HKEY_LOCAL_MACHINE
+Variable                               Variable
+WSMan                                  WSMan
+
+
+PS C:\Himanshu\source\code\Powershell> Set-Location env:
+PS Env:\> Get-ChildItem
+
+Name                           Value
+----                           -----
+ALLUSERSPROFILE                C:\ProgramData
+APPDATA                        C:\Users\Himanshu\AppData\Roaming
+AppsRoot                       D
+CommonProgramFiles             C:\Program Files\Common Files
+CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+CommonProgramW6432             C:\Program Files\Common Files
+COMPUTERNAME                   DESKTOP-24IJDG4
+ComSpec                        C:\WINDOWS\system32\cmd.exe
+DriverData                     C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING Internet Explorer
+FPS_BROWSER_USER_PROFILE_ST... Default
+FSHARPINSTALLDIR               C:\Program Files (x86)\Microsoft SDKs\F#\10.1\Framework\v4.0\
+HOMEDRIVE                      C:
+HOMEPATH                       \Users\Himanshu
+LOCALAPPDATA                   C:\Users\Himanshu\AppData\Local
+LOGONSERVER                    \\DESKTOP-24IJDG4
+MSMPI_BIN                      C:\Program Files\Microsoft MPI\Bin\
+NUMBER_OF_PROCESSORS           8
+OneDrive                       C:\Users\Himanshu\OneDrive
+OS                             Windows_NT
+Path                           C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData...
+PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+PROCESSOR_ARCHITECTURE         AMD64
+PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 70 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL                6
+PROCESSOR_REVISION             4601
+ProgramData                    C:\ProgramData
+ProgramFiles                   C:\Program Files
+ProgramFiles(x86)              C:\Program Files (x86)
+ProgramW6432                   C:\Program Files
+PSModulePath                   C:\Users\Himanshu\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS...
+PUBLIC                         C:\Users\Public
+SESSIONNAME                    Console
+SystemDrive                    C:
+SystemRoot                     C:\WINDOWS
+TEMP                           C:\Users\Himanshu\AppData\Local\Temp
+TMP                            C:\Users\Himanshu\AppData\Local\Temp
+USERDOMAIN                     DESKTOP-24IJDG4
+USERDOMAIN_ROAMINGPROFILE      DESKTOP-24IJDG4
+USERNAME                       Himanshu
+USERPROFILE                    C:\Users\Himanshu
+VS140COMNTOOLS                 C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSSDK140Install                C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+windir                         C:\WINDOWS
+
+
+PS Env:\> Get-PSDrive
+
+Name           Used (GB)     Free (GB) Provider      Root                                                                     CurrentLocation
+----           ---------     --------- --------      ----                                                                     ---------------
+Alias                                  Alias
+C                  94.89        137.53 FileSystem    C:\                                                      Himanshu\source\code\Powershell
+Cert                                   Certificate   \
+E                                      FileSystem    E:\
+Env                                    Environment
+Function                               Function
+HKCU                                   Registry      HKEY_CURRENT_USER
+HKLM                                   Registry      HKEY_LOCAL_MACHINE
+Variable                               Variable
+WSMan                                  WSMan
+
+
+PS Env:\> Set-Location C:
+PS C:\Himanshu\source\code\Powershell> Set-Location HKCU:
+PS HKCU:\> Get-ChildItem
+
+
+    Hive: HKEY_CURRENT_USER
+
+
+Name                           Property
+----                           --------
+AppEvents
+Console                        CtrlKeyShortcutsDisabled : 0
+                               CursorSize               : 25
+                               EnableColorSelection     : 0
+                               ExtendedEditKey          : 1
+                               ExtendedEditKeyCustom    : 0
+                               FilterOnPaste            : 1
+                               ForceV2                  : 1
+                               FullScreen               : 0
+                               HistoryBufferSize        : 50
+                               HistoryNoDup             : 0
+                               InsertMode               : 1
+                               LineSelection            : 1
+                               LineWrap                 : 1
+                               LoadConIme               : 1
+                               NumberOfHistoryBuffers   : 4
+                               PopupColors              : 245
+                               QuickEdit                : 1
+                               ScreenBufferSize         : 589889656
+                               ScreenColors             : 7
+                               ScrollScale              : 1
+                               TrimLeadingZeros         : 0
+                               WindowAlpha              : 255
+                               WindowSize               : 1966200
+                               WordDelimiters           : 0
+                               ColorTable00             : 0
+                               ColorTable01             : 8388608
+                               ColorTable02             : 32768
+                               ColorTable03             : 8421376
+                               ColorTable04             : 128
+                               ColorTable05             : 8388736
+                               ColorTable06             : 32896
+                               ColorTable07             : 12632256
+                               ColorTable08             : 8421504
+                               ColorTable09             : 16711680
+                               ColorTable10             : 65280
+                               ColorTable11             : 16776960
+                               ColorTable12             : 255
+                               ColorTable13             : 16711935
+                               ColorTable14             : 65535
+                               ColorTable15             : 16777215
+                               FaceName                 : Lucida Console
+                               FontFamily               : 54
+                               FontSize                 : 917504
+                               FontWeight               : 400
+Control Panel                  SettingsExtensionAppSnapshot : {0, 0, 0, 0...}
+Environment                    TEMP     : C:\Users\Himanshu\AppData\Local\Temp
+                               TMP      : C:\Users\Himanshu\AppData\Local\Temp
+                               OneDrive : C:\Users\Himanshu\OneDrive
+                               Path     : C:\Users\Himanshu\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS
+                                          Code\bin;C:\Users\Himanshu\AppData\Roaming\npm
+EUDC
+Keyboard Layout
+Printers
+Software                       (default) :
+System
+Uninstall
+Volatile Environment           LOGONSERVER               : \\DESKTOP-24IJDG4
+                               USERDOMAIN                : DESKTOP-24IJDG4
+                               USERNAME                  : Himanshu
+                               USERPROFILE               : C:\Users\Himanshu
+                               HOMEPATH                  : \Users\Himanshu
+                               HOMEDRIVE                 : C:
+                               APPDATA                   : C:\Users\Himanshu\AppData\Roaming
+                               LOCALAPPDATA              : C:\Users\Himanshu\AppData\Local
+                               USERDOMAIN_ROAMINGPROFILE : DESKTOP-24IJDG4
+
+
+PS HKCU:\> Set-Location C:
+PS C:\Himanshu\source\code\Powershell> Set-Location env:
+PS Env:\> Get-ChildItem
+
+Name                           Value
+----                           -----
+ALLUSERSPROFILE                C:\ProgramData
+APPDATA                        C:\Users\Himanshu\AppData\Roaming
+AppsRoot                       D
+CommonProgramFiles             C:\Program Files\Common Files
+CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+CommonProgramW6432             C:\Program Files\Common Files
+COMPUTERNAME                   DESKTOP-24IJDG4
+ComSpec                        C:\WINDOWS\system32\cmd.exe
+DriverData                     C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING Internet Explorer
+FPS_BROWSER_USER_PROFILE_ST... Default
+FSHARPINSTALLDIR               C:\Program Files (x86)\Microsoft SDKs\F#\10.1\Framework\v4.0\
+HOMEDRIVE                      C:
+HOMEPATH                       \Users\Himanshu
+LOCALAPPDATA                   C:\Users\Himanshu\AppData\Local
+LOGONSERVER                    \\DESKTOP-24IJDG4
+MSMPI_BIN                      C:\Program Files\Microsoft MPI\Bin\
+NUMBER_OF_PROCESSORS           8
+OneDrive                       C:\Users\Himanshu\OneDrive
+OS                             Windows_NT
+Path                           C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData...
+PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+PROCESSOR_ARCHITECTURE         AMD64
+PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 70 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL                6
+PROCESSOR_REVISION             4601
+ProgramData                    C:\ProgramData
+ProgramFiles                   C:\Program Files
+ProgramFiles(x86)              C:\Program Files (x86)
+ProgramW6432                   C:\Program Files
+PSModulePath                   C:\Users\Himanshu\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS...
+PUBLIC                         C:\Users\Public
+SESSIONNAME                    Console
+SystemDrive                    C:
+SystemRoot                     C:\WINDOWS
+TEMP                           C:\Users\Himanshu\AppData\Local\Temp
+TMP                            C:\Users\Himanshu\AppData\Local\Temp
+USERDOMAIN                     DESKTOP-24IJDG4
+USERDOMAIN_ROAMINGPROFILE      DESKTOP-24IJDG4
+USERNAME                       Himanshu
+USERPROFILE                    C:\Users\Himanshu
+VS140COMNTOOLS                 C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSSDK140Install                C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+windir                         C:\WINDOWS
+
+
+PS Env:\> Get-ChildItem | Format-Table -Property Name Value -AutoSize
+
+>> TerminatingError(Format-Table): "A positional parameter cannot be found that accepts argument 'Value'."
+Format-Table : A positional parameter cannot be found that accepts argument 'Value'.
+At line:1 char:17
++ Get-ChildItem | Format-Table -Property Name Value -AutoSize
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Format-Table], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.FormatTableCommand
+Format-Table : A positional parameter cannot be found that accepts argument 'Value'.
+At line:1 char:17
++ Get-ChildItem | Format-Table -Property Name Value -AutoSize
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Format-Table], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.FormatTableCommand
+
+PS Env:\> Get-ChildItem | Format-Table -Property Name, Value -AutoSize
+
+
+Name                            Value
+----                            -----
+ALLUSERSPROFILE                 C:\ProgramData
+APPDATA                         C:\Users\Himanshu\AppData\Roaming
+AppsRoot                        D
+CommonProgramFiles              C:\Program Files\Common Files
+CommonProgramFiles(x86)         C:\Program Files (x86)\Common Files
+CommonProgramW6432              C:\Program Files\Common Files
+COMPUTERNAME                    DESKTOP-24IJDG4
+ComSpec                         C:\WINDOWS\system32\cmd.exe
+DriverData                      C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING  Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING Default
+FSHARPINSTALLDIR                C:\Program Files (x86)\Microsoft SDKs\F#\10.1\Framework\v4.0\
+HOMEDRIVE                       C:
+HOMEPATH                        \Users\Himanshu
+LOCALAPPDATA                    C:\Users\Himanshu\AppData\Local
+LOGONSERVER                     \\DESKTOP-24IJDG4
+MSMPI_BIN                       C:\Program Files\Microsoft MPI\Bin\
+NUMBER_OF_PROCESSORS            8
+OneDrive                        C:\Users\Himanshu\OneDrive
+OS                              Windows_NT
+Path                            C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramDat...
+PATHEXT                         .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+PROCESSOR_ARCHITECTURE          AMD64
+PROCESSOR_IDENTIFIER            Intel64 Family 6 Model 70 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL                 6
+PROCESSOR_REVISION              4601
+ProgramData                     C:\ProgramData
+ProgramFiles                    C:\Program Files
+ProgramFiles(x86)               C:\Program Files (x86)
+ProgramW6432                    C:\Program Files
+PSModulePath                    C:\Users\Himanshu\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOW...
+PUBLIC                          C:\Users\Public
+SESSIONNAME                     Console
+SystemDrive                     C:
+SystemRoot                      C:\WINDOWS
+TEMP                            C:\Users\Himanshu\AppData\Local\Temp
+TMP                             C:\Users\Himanshu\AppData\Local\Temp
+USERDOMAIN                      DESKTOP-24IJDG4
+USERDOMAIN_ROAMINGPROFILE       DESKTOP-24IJDG4
+USERNAME                        Himanshu
+USERPROFILE                     C:\Users\Himanshu
+VS140COMNTOOLS                  C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+VSSDK140Install                 C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+windir                          C:\WINDOWS
+
+
+PS Env:\> Set-Location alias:
+PS Alias:\> Get-ChildItem
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           asnp -> Add-PSSnapin
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           CFS -> ConvertFrom-String                          3.1.0.0    Microsoft.PowerShell.Utility
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           curl -> Invoke-WebRequest
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           epsn -> Export-PSSession
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  3.1.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            3.1.0.0    Microsoft.PowerShell.Management
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsnp -> Get-PSSnapin
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           gwmi -> Get-WmiObject
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           ipsn -> Import-PSSession
+Alias           irm -> Invoke-RestMethod
+Alias           ise -> powershell_ise.exe
+Alias           iwmi -> Invoke-WmiMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           lp -> Out-Printer
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           npssc -> New-PSSessionConfigurationFile
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rsnp -> Remove-PSSnapin
+Alias           rujb -> Resume-Job
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           rwmi -> Remove-WmiObject
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           sbp -> Set-PSBreakpoint
+Alias           sc -> Set-Content
+Alias           scb -> Set-Clipboard                               3.1.0.0    Microsoft.PowerShell.Management
+Alias           select -> Select-Object
+Alias           set -> Set-Variable
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           stz -> Set-TimeZone                                3.1.0.0    Microsoft.PowerShell.Management
+Alias           sujb -> Suspend-Job
+Alias           sv -> Set-Variable
+Alias           swmi -> Set-WmiInstance
+Alias           tee -> Tee-Object
+Alias           trcm -> Trace-Command
+Alias           type -> Get-Content
+Alias           wget -> Invoke-WebRequest
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+
+PS Alias:\> cls
+PS Alias:\> Set-Location c:
+PS C:\Himanshu\source\code\Powershell> Clear-Host
+PS C:\Himanshu\source\code\Powershell> Get-PSSnapin
+
+
+Name        : Microsoft.PowerShell.Core
+PSVersion   : 5.1.17134.165
+Description : This Windows PowerShell snap-in contains cmdlets used to manage components of Windows PowerShell.
+
+
+
+PS C:\Himanshu\source\code\Powershell> Get-PSSnapin -Registered
+
+
+Name        : WDeploySnapin3.0
+PSVersion   : 2.0
+Description : This is a PowerShell snap-in that contains cmdlets for managing Microsoft Web Deployment infrastructure.
+
+
+
+**********************
+Windows PowerShell transcript end
+End time: 20180811000525
+**********************
